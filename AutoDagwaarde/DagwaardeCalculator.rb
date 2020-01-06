@@ -14,11 +14,12 @@ auto3 = Auto.new("TE-ST-03", BrandstofSoort::Elektrisch)
 auto4 = Auto.new("TE-ST-04", BrandstofSoort::Benzine)
 
 
-
+puts "Specs of Car1: "
 tmp = auto1.KmStand
 tmp = auto1.Kenteken
 tmp = auto1.Brandstof
 tmp = auto1.DagWaarde
+puts "Car1 drives 2 km."
 tmp = auto1.RijdKilometers(2)
 tmp = auto1.KmStand
 tmp = auto1.DagWaarde

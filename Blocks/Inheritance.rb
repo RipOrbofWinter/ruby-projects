@@ -42,14 +42,10 @@ world = [["Dirt", "Dirt"], ["Stone", "Dirt"]]
 		end
 	end
 
+block1 = DirtBlock.new
+world[0][0] = "Air"
 
-block = blockify(world[0][0])
-block.look
-gather(block.mine)
-block.look
+block1.look
+block1.mine
 
-world[1][0].look
-world[1][1].look
-gather(world[1][1].mine)
-
-puts "My inventory holds: " + inventory[0].name
+# puts "My inventory holds: " + inventory[0].name

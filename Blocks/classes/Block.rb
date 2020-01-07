@@ -18,7 +18,7 @@ class Block
 	# def name=(new_name)
 	# 	if new_name.is_a?(Numeric)
 	# 		puts "Name can't be a Number"
-	# 	else 
+	# 	else 	
 	# 		@name = new_name
 	# 	end
 	# end

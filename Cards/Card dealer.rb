@@ -27,11 +27,12 @@ Shoes.app height: 800, width: 1200 do
 		end
 	end
 	@shuffle.click do
-	if deck.Deck.length >= 2
-		card = deck.Shuffle(20)
-		card = deck.DrawCard()
-		card = Card.new(card, 'heart')
-		@deckSneakPeak.clear { para deck.Deck }
+		if deck.Deck.length >= 2
+			card = deck.Shuffle(20)
+			card = deck.DrawCard()
+			card = Card.new(card, 'heart')
+			@deckSneakPeak.clear { para deck.Deck }
+		end
 	end
 	@newDeck.click do
 		deck = Deck.new

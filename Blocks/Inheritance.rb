@@ -8,12 +8,13 @@ require_relative "classes/EmptyBlock.rb"
 # Make actual gameplay like gather or build(?)
 # Make 3d
 # Test if world is round since ruby array -1 = last array index
+# Generate World function
 
 puts "What is your name?"
 protag = Player.new(gets)
 
-protag.inventory = Array.new(10, EmptyBlock.new())
-world = [[DirtBlock.new(), DirtBlock.new()], [StoneBlock.new(), DirtBlock.new()]]
+protag.inventory = Array.new(10, EmptyBlock.new)
+world = [[DirtBlock.new, DirtBlock.new, DirtBlock.new], [StoneBlock.new, DirtBlock.new, StoneBlock.new], [CobblestoneBlock.new, CobblestoneBlock.new, StoneBlock.new]]
 
 
 # game start
@@ -24,18 +25,31 @@ loop do
     if input == "quit"
     	break
     elsif input == "help"
-    	 puts "List of Commmands: quit, look, move, inventory, gather"
+    	 puts "List of Commmands: quit, look, scout, move, inventory, gather."
     elsif input == "look"
     	protag.look
+    elsif input == "scout"
+    	protag.scout(world)
 	elsif input == "move"
 		puts "Which direction do you want to move in?"
 		protag.move(gets.chomp, world)
 	elsif input == "inventory"
 		protag.showInventory
 	elsif input == "gather"
-    	
+		puts "Which direction do you want to gather from?"
+		gathered = protag.gather((direction = gets.chomp), world)
+		case gathered
+		when "Dirt"
+			protag.inventory[protag.activeInventory] = DirtBlock.new
+		when "Cobblestone"
+			protag.inventory[protag.activeInventory] = CobblestoneBlock.new
+		when "Stone"
+			protag.inventory[protag.activeInventory] = StoneBlock.new
+		else
+			puts "Error 404: block not found."
+		end
     else
-    	puts "Not an acceptable command, try 'help' for the list of commands"
+    	puts "Not an acceptable command, try 'help' for the list of commands."
     end
 end
 

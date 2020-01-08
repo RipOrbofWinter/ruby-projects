@@ -1,51 +1,47 @@
+require_relative "classes/Player.rb"
 require_relative "classes/DirtBlock.rb"
 require_relative "classes/StoneBlock.rb"
 require_relative "classes/CobblestoneBlock.rb"
 require_relative "classes/EmptyBlock.rb"
 
-inventory = Array.new(10, "Air")
-world = [["Dirt", "Dirt"], ["Stone", "Dirt"]]
+#To Do:
+# Make actual gameplay like gather or build(?)
+# Make 3d
+# Test if world is round since ruby array -1 = last array index
+
+puts "What is your name?"
+protag = Player.new(gets)
+
+protag.inventory = Array.new(10, EmptyBlock.new())
+world = [[DirtBlock.new(), DirtBlock.new()], [StoneBlock.new(), DirtBlock.new()]]
 
 
-	def gather(gatherd_block)
-		case gatherd_block
-			when "Dirt"
-				world[0][0] = "Air"
-				inventory[0] = "Dirt"
-				exit
-			when "Stone"
-				world[0][0] = "Air"
-				inventory[0] = "Stone"
-				exit
-			when "Cobblestone"
-				world[0][0] = "Air"
-				inventory[0] = "Cobblestone"
-				exit
-			else
-				puts gatherd_block
-		end
-	end
+# game start
+print "Typ your command: "
+loop do 
+    input = gets.chomp
 
-	def blockify(block)
-		case block
-			when "Dirt"
-				return DirtBlock.new()
-				exit
-			when "Stone"
-				return StoneBlock.new()
-				exit
-			when "Cobblestone"
-				return CobbleStoneBlock.new()
-				exit
-			else
-				puts block
-		end
-	end
+    if input == "quit"
+    	break
+    elsif input == "help"
+    	 puts "List of Commmands: quit, look, move, inventory, gather"
+    elsif input == "look"
+    	protag.look
+	elsif input == "move"
+		puts "Which direction do you want to move in?"
+		protag.move(gets.chomp, world)
+	elsif input == "inventory"
+		protag.showInventory
+	elsif input == "gather"
+    	
+    else
+    	puts "Not an acceptable command, try 'help' for the list of commands"
+    end
+end
 
-block1 = DirtBlock.new
-world[0][0] = "Air"
+# game end
+puts "Ending Results: \n\n"
 
-block1.look
-block1.mine
-
-# puts "My inventory holds: " + inventory[0].name
+puts protag.name
+protag.look
+protag.showInventory

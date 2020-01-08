@@ -5,9 +5,8 @@ require_relative "classes/CobblestoneBlock.rb"
 require_relative "classes/EmptyBlock.rb"
 
 #To Do:
-# Make actual gameplay like gather or build(?)
-# Make 3d
-# Test if world is round since ruby array -1 = last array index
+# Make actual gameplay like puzzle game?
+# Test if world is round since ruby array -1 = last array index (update: is true!)
 # Generate World function
 
 puts "What is your name?"

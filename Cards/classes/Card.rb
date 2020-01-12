@@ -41,7 +41,7 @@ class Card
       when 'king'
          return 'king'
       else
-         return 'unkown card'
+         return "unkown card: #{@value}"
       end
    end
    def Close()

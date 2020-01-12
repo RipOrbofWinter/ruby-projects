@@ -6,11 +6,14 @@ require_relative "classes/EmptyBlock.rb"
 
 #To Do:
 # Make actual gameplay like puzzle game?
-# Test if world is round since ruby array -1 = last array index (update: is true!)
 # Generate World function
 
+#get user name and check if they exist in the save file
 puts "What is your name?"
-protag = Player.new(gets)
+protag = Player.new(gets)) ==(
+File.exists?("#{protag.name}.txt")
+	puts p
+end
 
 protag.inventory = Array.new(10, EmptyBlock.new)
 world = [[DirtBlock.new, DirtBlock.new, DirtBlock.new], [StoneBlock.new, DirtBlock.new, StoneBlock.new], [CobblestoneBlock.new, CobblestoneBlock.new, StoneBlock.new]]
@@ -53,6 +56,12 @@ loop do
 end
 
 # game end
+puts "Saving Data..."
+
+if condition
+	puts
+end
+
 puts "Ending Results: \n\n"
 
 puts protag.name

@@ -15,6 +15,8 @@ Shoes.app height: 800, width: 1200 do
 	@deckSneakPeak = stack { para "current deck"}
 	@deckSize= stack { para "current deck size"}
 
+
+	#functions
 	@draw.click do
 		if deck.Deck.length > 0# not tested/finished
 			@cardImage.clear { image card.Open, height:  300, width: 200 }

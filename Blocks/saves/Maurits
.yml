@@ -1,0 +1,22 @@
+--- !ruby/object:Player
+name: 'Maurits
+
+'
+position:
+- 0
+- 1
+activeInventory: 0
+inventory:
+- &1 !ruby/object:EmptyBlock
+  name: Air
+  fortune:
+  - 0
+- *1
+- *1
+- *1
+- *1
+- *1
+- *1
+- *1
+- *1
+- *1

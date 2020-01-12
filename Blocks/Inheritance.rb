@@ -1,3 +1,5 @@
+require "yaml"
+
 require_relative "classes/Player.rb"
 require_relative "classes/DirtBlock.rb"
 require_relative "classes/StoneBlock.rb"
@@ -10,9 +12,14 @@ require_relative "classes/EmptyBlock.rb"
 
 #get user name and check if they exist in the save file
 puts "What is your name?"
-protag = Player.new(gets)) ==(
-File.exists?("#{protag.name}.txt")
-	puts p
+protag = Player.new(gets)
+if File.exist?("saves/#{protag.name}.yml")
+	puts "File exists"
+	protag = YAML.load(File.read("saves/#{protag.name}.yml"))
+else
+	File.open("saves/#{protag.name}.yml", "w") { |file| file.write(protag.to_yaml) }
+	data_from_file = File.read("saves/#{protag.name}.yml")
+	puts data_from_file
 end
 
 protag.inventory = Array.new(10, EmptyBlock.new)
@@ -56,13 +63,16 @@ loop do
 end
 
 # game end
-puts "Saving Data..."
-
-if condition
-	puts
+puts "Save your progress?"
+tmp = gets.chomp.downcase
+if tmp == "y"
+	puts "\nSaving Data..."
+	File.open("saves/#{protag.name}.yml", "w") { |file| file.write(protag.to_yaml) }
+	puts "Saved!!\n"
+else
+	puts "\nData not Saved"
 end
-
-puts "Ending Results: \n\n"
+puts "Ending Results:\n\n"
 
 puts protag.name
 protag.look

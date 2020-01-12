@@ -1,5 +1,4 @@
 class Block
-	self.abstract_class = true
 	# attr_accessor :name, :position, :harvest, :fortune
 	attr_reader :name, :harvest, :fortune
 

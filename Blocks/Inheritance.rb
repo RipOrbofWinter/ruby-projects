@@ -9,8 +9,8 @@ require_relative "classes/EmptyBlock.rb"
 #To Do:
 # Make actual gameplay like puzzle game?
 # Generate World function
+# rework Mine function/harvest to hold objects instead. (Ruby is powerfull enough!)
 
-#get user name and check if they exist in the save file
 puts "What is your name?"
 protag = Player.new(gets)
 if File.exist?("saves/#{protag.name}.yml")
@@ -21,11 +21,8 @@ else
 	data_from_file = File.read("saves/#{protag.name}.yml")
 	puts data_from_file
 end
-
 protag.inventory = Array.new(10, EmptyBlock.new)
-world = [[DirtBlock.new, DirtBlock.new, DirtBlock.new], [StoneBlock.new, DirtBlock.new, StoneBlock.new], [CobblestoneBlock.new, CobblestoneBlock.new, StoneBlock.new]]
-
-
+protag.generateWorld
 # game start
 print "Typ your command: "
 loop do 
@@ -38,15 +35,15 @@ loop do
     elsif input == "look"
     	protag.look
     elsif input == "scout"
-    	protag.scout(world)
+    	protag.scout
 	elsif input == "move"
 		puts "Which direction do you want to move in?"
-		protag.move(gets.chomp, world)
+		protag.move(gets.chomp)
 	elsif input == "inventory"
 		protag.showInventory
 	elsif input == "gather"
 		puts "Which direction do you want to gather from?"
-		gathered = protag.gather((direction = gets.chomp), world)
+		gathered = protag.gather((direction = gets.chomp))
 		case gathered
 		when "Dirt"
 			protag.inventory[protag.activeInventory] = DirtBlock.new
@@ -65,7 +62,7 @@ end
 # game end
 puts "Save your progress?"
 tmp = gets.chomp.downcase
-if tmp == "y"
+if tmp == "y" || "yes"
 	puts "\nSaving Data..."
 	File.open("saves/#{protag.name}.yml", "w") { |file| file.write(protag.to_yaml) }
 	puts "Saved!!\n"

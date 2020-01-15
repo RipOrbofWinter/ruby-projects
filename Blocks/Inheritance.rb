@@ -7,9 +7,17 @@ require_relative "classes/CobblestoneBlock.rb"
 require_relative "classes/EmptyBlock.rb"
 
 #To Do:
-# Make actual gameplay like puzzle game?
+# Increase world size
+# Add Collectables Class
+# Enums
+# All command inputs require user friendly code: lowercase/multi-options 
+# Class diagram 
+
+# Optional to do:
+# Remake scout/ make map function
+# Crafting/building system
 # Generate World function
-# rework Mine function/harvest to hold objects instead. (Ruby is powerfull enough!)
+
 
 puts "What is your name?"
 protag = Player.new(gets)

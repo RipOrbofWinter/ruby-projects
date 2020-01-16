@@ -12,7 +12,7 @@ class Block
 
 	def mine
 		puts "You picked up a block of: " + @harvest
-		return @harvest
+		return self
 	end
 
 	# def name=(new_name)

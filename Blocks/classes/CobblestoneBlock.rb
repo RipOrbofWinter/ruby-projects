@@ -4,7 +4,7 @@ class CobblestoneBlock < Block
 	def initialize()
 		@name = "Cobblestone"
 		@harvest = @name
-		@fortune = [1]
+		@fortune = 1
 	end
 
 	def repair

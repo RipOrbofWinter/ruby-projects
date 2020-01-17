@@ -2,10 +2,6 @@ class Block
 	# attr_accessor :name, :position, :harvest, :fortune
 	attr_reader :name, :harvest, :fortune
 
-	def initialize
-		puts "Create a New Block"
-	end
-
 	def look
 		puts "You see a block of: " + @name
 	end

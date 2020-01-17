@@ -9,7 +9,7 @@ class CobblestoneBlock < Block
 
 	def repair
 		puts "You repaired the CobblestoneBlock into a StoneBlock!"
-	return "Stone"
+		return StoneBlock.new
 	end
 end
 	

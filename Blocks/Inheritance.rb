@@ -1,4 +1,7 @@
-require "yaml"
+# yaml for saving objects to a file
+require "yaml" 
+# colorize for coloring text
+require 'colorize'
 
 require_relative "classes/Player.rb"
 # load all blocks
@@ -12,7 +15,8 @@ require_relative "classes/Diamond.rb"
 
 
 #To Do:
-# Class diagram 
+# better maps, position/color
+# more user friendly input, help functions
 # Enums
 
 
@@ -48,7 +52,7 @@ loop do
 		protag.showInventory
 	elsif input == "gather"
 		puts "Which direction do you want to gather from?"
-		gathered = protag.gather((direction = gets.chomp.downcase.strip))
+		gathered = protag.gather
 		case gathered.harvest
 		when "Dirt"
 			protag.inventory[0][0] = DirtBlock.new

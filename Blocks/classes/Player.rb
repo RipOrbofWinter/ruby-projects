@@ -8,11 +8,9 @@ class Player
 	end
 
 	def generateWorld
-		# requires controll on max range
 		@world = Array.new(10) { Array.new(10, DirtBlock.new) }
 		x = 0
 		# Place Stone blocks
-
 		while x <= 40 do
 			@world[rand(1..world.length-2)][rand(1..world[0].length-2)] = StoneBlock.new
 			x +=1
@@ -45,11 +43,11 @@ class Player
 			map = ""
 			# print a full column
 			while y <= @position[1]+2
-				map += world[x][y].name[0] + world[x][y].name[1] + world[x][y].name[2] + " "
+				print map = world[x][y].name[0..2] + " "	
 				y+=1
 			end
 			# puts 1 row
-			puts map
+			puts "\n"
 			# go to next column
 			x+=1
 		end
@@ -83,12 +81,13 @@ class Player
 	end
 
 	def craft()
+		self.showInventory
 		loop do
 		puts "what do you want to create?"
-		self.showInventory
+		
 			case gets.chomp.downcase.strip
 			when "portal"
-				if inventory[1].count >= 5
+				if inventory[1][3] >= 5
 					puts "You created a protal back to your world!"
 					puts "You stare at the portal in front of you and see your hometown it the distance..."
 					loop do
@@ -99,14 +98,20 @@ class Player
 							exit
 						elsif tmp == "no"
 							puts "Not yet..."
-							break
+							return
 						else 
 							"Not an acceptable choice, please type 'yes' or 'no'"
 						end
 					end
+				else
+					"You dont have enough diamonds! you need #{5-inventory[1][3]}"
 				end
+			when "quit"
+				return
+			when "help"
+				puts "Available recepies: Portal"
 			else
-				puts "Unkown item, try help for list of items you can create"
+				puts "Unkown item, try help for list of items you can create. Or, type 'quit' to exit"
 			end
 		end
 	end
@@ -120,14 +125,14 @@ class Player
 		puts "You have enough stanima to move up to 3 spaces at a time"
 			distance = gets.chomp.to_i
 			if distance.is_a?(Integer)
-				if distance >= 1 and distance <= 3
+				if distance >= 0 and distance <= 3
 					x = 0
-					while x <= distance do
+					while x < distance do
 						case direction
 						when "left"
-							@position[0] += 1
-						when "right"
 							@position[0] += -1
+						when "right"
+							@position[0] += 1
 						when "forward"
 							@position[1] += 1
 						when "backward"
@@ -173,23 +178,34 @@ class Player
 		end
 	end
 
-	def gather(direction)
-		case direction
-		when "forward"
-			block = @world[(@position[0])][@position[1]+1]
-			@world[(@position[0])][@position[1]+1] = EmptyBlock.new
-		when "backward"
-			block = @world[(@position[0])][@position[1]-1]
-			@world[(@position[0])][@position[1]-1] = EmptyBlock.new
-		when "right"
-			block = @world[(@position[0]+1)][@position[1]]
-			@world[(@position[0]+1)][@position[1]] = EmptyBlock.new
-		when "left"
-			block = @world[(@position[0]-1)][@position[1]]
-			@world[(@position[0]-1)][@position[1]] = EmptyBlock.new
-		else
-			puts "Not an acceptable direction"
+	def gather()
+		loop do
+			direction = gets.chomp.downcase.strip
+			case direction
+			# when "below"
+			# 	block = @world[(@position[0])][@position[1]]
+			# 	@world[(@position[0])][@position[1]] = EmptyBlock.new
+			# 	self.move
+			# 	return block = block.mine
+			when "forward"
+				block = @world[(@position[0])][@position[1]+1]
+				@world[(@position[0])][@position[1]+1] = EmptyBlock.new
+				return block = block.mine
+			when "backward"
+				block = @world[(@position[0])][@position[1]-1]
+				@world[(@position[0])][@position[1]-1] = EmptyBlock.new
+				return block = block.mine
+			when "right"
+				block = @world[(@position[0]+1)][@position[1]]
+				@world[(@position[0]+1)][@position[1]] = EmptyBlock.new
+				return block = block.mine
+			when "left"
+				block = @world[(@position[0]-1)][@position[1]]
+				@world[(@position[0]-1)][@position[1]] = EmptyBlock.new
+				return block = block.mine
+			else
+				puts "Not an acceptable direction"
+			end
 		end
-		return block = block.mine
 	end
 end

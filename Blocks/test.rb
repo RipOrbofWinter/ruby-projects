@@ -13,7 +13,7 @@ str = "┌───────────────────┐\n"\
 
 color_test = "test "
 
-puts color_test.colorize(:light_blue) + color_test.colorize(:brown)
+puts color_test.colorize(:light_cyan) + color_test.colorize(:red)
 puts String.colors
 
 

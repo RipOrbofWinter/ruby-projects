@@ -1,11 +1,14 @@
 class Block
 	# attr_accessor :name, :position, :harvest, :fortune
-	attr_reader :name, :harvest, :fortune
+	attr_reader :name, :harvest, :fortune, :color
 
 	def look
 		puts "You see a block of: " + @name
 	end
-
+	def scout
+		tmp = self.name[0..2] + " "
+		return tmp.colorize(:white)
+	end
 	def mine
 		puts "You picked up a block of: " + @harvest
 		return self

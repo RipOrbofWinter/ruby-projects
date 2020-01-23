@@ -31,19 +31,24 @@ class Player
 	end
 
 	def look
-		puts "I am standing at: x#{@position[0]} and y#{@position[1]}"
+		puts "I am standing on a block of #{world[@position[0]][@position[1]].name}."
+		puts "And my position is: x#{@position[0]} and y#{@position[1]}"
 	end
 
 	def scout
-		puts "I have mapped my suroundings: "
-		puts "I am facing this direction => \n\n"
+		puts "\nI have mapped my suroundings: "
+		puts "I am facing this direction ==> \n\n"
 		x = @position[0]-2
 		while x <= @position[0]+2
 			y = @position[1]-2
 			map = ""
 			# print a full column
 			while y <= @position[1]+2
-				print map = world[x][y].name[0..2] + " "	
+				if x != @position[0] or y != @position[1]
+					print map = world[x][y].scout
+				else
+					print map = "==> "
+				end				
 				y+=1
 			end
 			# puts 1 row
@@ -70,7 +75,7 @@ class Player
 			end
 			# print a full column
 			while y <= world[x].length-1
-				map += world[x][y].name[0] + world[x][y].name[1] + world[x][y].name[2] + " "
+				print map = world[x][y].scout	
 				y+=1
 			end
 			# puts 1 row
@@ -80,78 +85,63 @@ class Player
 		end
 	end
 
-	def craft()
-		self.showInventory
-		loop do
-		puts "what do you want to create?"
-		
-			case gets.chomp.downcase.strip
-			when "portal"
-				if inventory[1][3] >= 5
-					puts "You created a protal back to your world!"
-					puts "You stare at the portal in front of you and see your hometown it the distance..."
-					loop do
-						puts "Do you enter the portal?"
-						tmp = gets.chomp.downcase.strip
-						if tmp == "yes"
-							puts "You won the game!!!"
-							exit
-						elsif tmp == "no"
-							puts "Not yet..."
-							return
-						else 
-							"Not an acceptable choice, please type 'yes' or 'no'"
-						end
+	def craft(item)
+		case item
+		when "portal"
+			if inventory[1][3] >= 5
+				puts "You created a protal back to your world!"
+				puts "You stare at the portal in front of you and see your hometown it the distance..."
+				loop do
+					puts "Do you enter the portal?"
+					tmp = gets.chomp.downcase.strip
+					if tmp == "yes"
+						puts "You won the game!!!"
+						exit
+					elsif tmp == "no"
+						puts "Not yet..."
+						return
+					else 
+						"Not an acceptable choice, please type 'yes' or 'no'"
 					end
-				else
-					"You dont have enough diamonds! you need #{5-inventory[1][3]}"
 				end
-			when "quit"
-				return
-			when "help"
-				puts "Available recepies: Portal"
 			else
-				puts "Unkown item, try help for list of items you can create. Or, type 'quit' to exit"
+				puts "\nYou dont have enough diamonds! You need at least #{5-inventory[1][3]} more."
 			end
+		when "quit" || "stop" || "exit"
+			return true
+		when "recepies"
+			puts "\nAvailable recepies: "
+			puts "\nPortal, requires: 5 diamonds (you have #{inventory[1][3]})"
+		else
+			puts "Unkown item, try 'recepies' for a list of items you can create. Or type 'quit' to exit\n"
 		end
 	end
 
-	def move()
+	def move(direction, distance)
 		resetPosition = Array.new(@position)
-		loop do
-		puts "Which direction do you want to move in?"
-		direction = gets.chomp.downcase.strip
-		puts "\nHow far do you want to move?"
-		puts "You have enough stanima to move up to 3 spaces at a time"
-			distance = gets.chomp.to_i
-			if distance.is_a?(Integer)
-				if distance >= 0 and distance <= 3
-					x = 0
-					while x < distance do
-						case direction
-						when "left"
-							@position[0] += -1
-						when "right"
-							@position[0] += 1
-						when "forward"
-							@position[1] += 1
-						when "backward"
-							@position[1] += -1
-						else
-							puts "Not an acceptable direction"
-						end
-						self.look
-						self.checkOffWorld(resetPosition)
-						x += +1
-					end
-					return
-				else
-					puts "You cant move that far!"
-				end
-			else
-				puts "Please enter a number"
+		x = 0
+		while x < distance do
+			case direction
+			when "left"
+				@position[0] += -1
+			when "right"
+				@position[0] += 1
+			when "forward"
+				@position[1] += 1
+			when "backward"
+				@position[1] += -1
+			when "help"
+				puts "You can gather from these directions: forward, backward, right, left"
+			when "quit" || "stop" || "exit"
+				return true
+			else 
+				return false
 			end
+			self.look
+			self.checkOffWorld(resetPosition)
+			x += +1
 		end
+		return true
 	end
 
 	def checkOffWorld(resetPosition)
@@ -178,34 +168,31 @@ class Player
 		end
 	end
 
-	def gather()
-		loop do
-			direction = gets.chomp.downcase.strip
-			case direction
-			# when "below"
-			# 	block = @world[(@position[0])][@position[1]]
-			# 	@world[(@position[0])][@position[1]] = EmptyBlock.new
-			# 	self.move
-			# 	return block = block.mine
-			when "forward"
-				block = @world[(@position[0])][@position[1]+1]
-				@world[(@position[0])][@position[1]+1] = EmptyBlock.new
-				return block = block.mine
-			when "backward"
-				block = @world[(@position[0])][@position[1]-1]
-				@world[(@position[0])][@position[1]-1] = EmptyBlock.new
-				return block = block.mine
-			when "right"
-				block = @world[(@position[0]+1)][@position[1]]
-				@world[(@position[0]+1)][@position[1]] = EmptyBlock.new
-				return block = block.mine
-			when "left"
-				block = @world[(@position[0]-1)][@position[1]]
-				@world[(@position[0]-1)][@position[1]] = EmptyBlock.new
-				return block = block.mine
-			else
-				puts "Not an acceptable direction"
-			end
+	def gather(direction)
+		case direction
+		when "forward"
+			block = @world[(@position[0])][@position[1]+1]
+			@world[(@position[0])][@position[1]+1] = EmptyBlock.new
+			return block = block.mine
+		when "backward"
+			block = @world[(@position[0])][@position[1]-1]
+			@world[(@position[0])][@position[1]-1] = EmptyBlock.new
+			return block = block.mine
+		when "right"
+			block = @world[(@position[0]+1)][@position[1]]
+			@world[(@position[0]+1)][@position[1]] = EmptyBlock.new
+			return block = block.mine
+		when "left"
+			block = @world[(@position[0]-1)][@position[1]]
+			@world[(@position[0]-1)][@position[1]] = EmptyBlock.new
+			return block = block.mine
+		when "help"
+			puts "You can gather from these directions: forward, backward, right, left"
+		when "quit" || "stop" || "exit"
+			return true
+		else 
+			puts "Not an acceptable direction, try help for list of items you can create. Or, type 'quit' to exit\n"
+			return true
 		end
 	end
 end

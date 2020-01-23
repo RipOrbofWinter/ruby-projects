@@ -6,5 +6,9 @@ class DirtBlock	< Block
 		@harvest = @name
 		@fortune = 1
 	end
+	def scout
+		tmp = self.name[0..2] + " "
+		return tmp.colorize(:green)
+	end
 end
 	

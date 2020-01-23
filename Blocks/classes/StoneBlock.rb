@@ -6,6 +6,9 @@ class StoneBlock < Block
 		@harvest = "Cobblestone"
 		@fortune = 1
 	end
-
+	def scout
+		tmp = self.name[0..2] + " "
+		return tmp.colorize(:light_black)
+	end
 end
 	

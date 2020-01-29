@@ -2,45 +2,81 @@
 require "yaml" 
 # colorize for coloring text
 require 'colorize'
+# http requests
+require 'httparty'
+# json parsing
+require 'json'
+
+
 # Objects
 require_relative 'classes/DataGrabber'
 require_relative 'classes/Calculator'
+require_relative 'classes/Match'
+# Enumerables
 require_relative 'classes/ChampionList'
 
 # Setup enums
 champion_options = ChampionList.new
+champion_options = champion_options.sort
 
 puts "Welcome to the winrate calculator!"
-
-# puts "\nLoading Data..."
-#     YAML.load(File.read("saves/Annie.yml"))
-# puts "Done!\n"
+if(File.exist?("saves/MatchHistory.yml"))
+    puts "\nLoading Data..."
+    history = YAML.load(File.read("saves/MatchHistory.yml"))
+    puts "Done!\n"
+else
+    puts "Creating new MatchHistory file..."
+    history = DataGrabber.new
+    puts "Done!\n"
+end
 
 # Create objects
 calculator = Calculator.new
-data = DataGrabber.new
-championId = 1
 
-
-# champion = Champion.new(Annie)
-# game start
+# Program start
 loop do 
 	print "Typ your command: "
     input = gets.chomp.downcase.strip
     if input == "quit" || input == "stop" || input == "exit"
     	break  	
-    elsif input == "input"
-        # File.open("saves/Annie.yml", "w") { |file| file.write(champion.to_yaml) }
-        puts "File open"
-    elsif input == "load"
-        champion_options.each do |item| puts "#{item[1]}"
-        puts champion_options.count
+    elsif input == "get"
 
-        # if champion = champion_options.find{ |item| item[0] == championId}
-            # puts champion[1]
+    elsif input == "add"
+        apiHash = history.getMatch
+        blueTeam = Array.new()
+        redTeam = Array.new()
+        winner = ""
+        i = 0
+        while i < 10
+            if i < 5
+                blueTeam.push(apiHash["participants"][i]["championId"])
+            elsif i >= 5 && i < 10
+                redTeam.push(apiHash["participants"][i]["championId"])
+            end
+            i+=1
         end
+        if apiHash["teams"][0]["win"] == "Win"
+            winner = "blue"
+        elsif apiHash["teams"][1]["win"] == "Win"
+            winner = "red"
+        else
+            puts "wtf Rito games"
+        end
+        game = Match.new(blueTeam, redTeam, winner) 
+        p history.matchList = game
+    elsif input == "history"
+        p history.matchList
+    elsif input == "save"
+        File.open("saves/MatchHistory.yml", "w") { |file| file.write(history.to_yaml) }
+        puts "File saved"
+    elsif input == "test"
+        p ""
+    elsif input == "convert"
+        p champion_options[rand(0..147)][0]
+    elsif input == "load"
+        history = YAML.load(File.read("saves/MatchHistory.yml"))
     elsif input == "help"
-    	 puts "\nList of Commmands: quit, input, load.\n"
+    	 puts "\nList of Commmands: quit, input, add, test, save, load.\n"
     else
     	puts "Not an acceptable command, try 'help' for the list of commands."
     end

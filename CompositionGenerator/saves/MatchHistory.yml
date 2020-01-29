@@ -1,0 +1,16 @@
+--- !ruby/object:DataGrabber
+matchList:
+- !ruby/object:Match
+  blueTeam:
+  - 18
+  - 142
+  - 63
+  - 33
+  - 98
+  redTeam:
+  - 523
+  - 412
+  - 238
+  - 10
+  - 48
+  winner: red

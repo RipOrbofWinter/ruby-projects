@@ -1,3 +1,4 @@
+# Loading gems/libraries
 # yaml for saving objects to a file
 require "yaml" 
 # colorize for coloring text
@@ -8,7 +9,7 @@ require 'httparty'
 require 'json'
 
 
-# Objects
+# Loading Classes
 require_relative 'classes/DataGrabber'
 require_relative 'classes/Calculator'
 require_relative 'classes/Match'
@@ -65,12 +66,17 @@ loop do
         game = Match.new(blueTeam, redTeam, winner) 
         p history.matchList = game
     elsif input == "history"
-        history.printMatchlist
+        history.printMatchlist(champion_options)
     elsif input == "save"
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(history.to_yaml) }
         puts "File saved"
     elsif input == "test"
-        p ""
+        history.to_ch(champion_options, 18)
+        # champion_options.each { |n| 
+        #     if n[0] == 18
+        #         puts "Current championId is: #{n[1]}"
+        #     end
+        # }
     elsif input == "convert"
         tmp = history.matchList[0].blueTeam
         p champion_options[tmp[0]][1]

@@ -25,7 +25,7 @@ if(File.exist?("saves/MatchHistory.yml"))
     history = YAML.load(File.read("saves/MatchHistory.yml"))
     puts "Done!\n"
 else
-    puts "Creating new MatchHistory file..."
+    puts "Creating new MatchHistory object..."
     history = DataGrabber.new
     puts "Done!\n"
 end
@@ -40,7 +40,7 @@ loop do
     if input == "quit" || input == "stop" || input == "exit"
     	break  	
     elsif input == "get"
-
+        p champion_options
     elsif input == "add"
         apiHash = history.getMatch
         blueTeam = Array.new()
@@ -65,14 +65,15 @@ loop do
         game = Match.new(blueTeam, redTeam, winner) 
         p history.matchList = game
     elsif input == "history"
-        p history.matchList
+        history.printMatchlist
     elsif input == "save"
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(history.to_yaml) }
         puts "File saved"
     elsif input == "test"
         p ""
     elsif input == "convert"
-        p champion_options[rand(0..147)][0]
+        tmp = history.matchList[0].blueTeam
+        p champion_options[tmp[0]][1]
     elsif input == "load"
         history = YAML.load(File.read("saves/MatchHistory.yml"))
     elsif input == "help"

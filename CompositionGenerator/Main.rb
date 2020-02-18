@@ -48,10 +48,10 @@ loop do
     	break  	
     elsif input == "get"
         p "Searching for matches..."
-        calculator.matches(championId = gets.chomp.downcase.strip)
+        calculator.count(gets.chomp.downcase.strip, matchList.history)
     elsif input == "add"
         print "Put in the gameId: "
-        matchId = gets.chomp.downcase.strip
+        matchId = gets.chomp.uppercase.strip
         game = dataLoader.getMatch(matchId)
         puts matchList.history = game
     elsif input == "history"

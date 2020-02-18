@@ -18,7 +18,28 @@ class Calculator
         }
 	end
 
-	def count(championName)
-		
+	def count(championName, history)
+		championId = to_chI(championName)
+		matches = 0
+		wins = 0
+		@history.each do |i|
+			counter = 0
+			while counter <=5
+				if i.blueTeam[counter] == championId
+					matches +=1
+					if 1.winner == blue
+						wins +=1
+					end
+				end
+				if i.redTeam[counter] == championId
+					matches +=1
+					if 1.winner == red
+						wins +=1
+					end
+				end
+				counter +=1
+			end
+		end
+		p "This champion played #{matches} of which they won #{wins}"
 	end
 end

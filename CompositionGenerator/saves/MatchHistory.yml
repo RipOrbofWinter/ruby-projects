@@ -1,17 +1,32 @@
---- !ruby/object:DataGrabber
-matchList:
+--- !ruby/object:MatchList
+history:
 - !ruby/object:Match
+  matchId: 4416838577
   blueTeam:
-  - 18
-  - 142
-  - 63
-  - 33
-  - 98
-  redTeam:
+  - 81
+  - 39
+  - 141
   - 523
-  - 412
-  - 238
-  - 10
-  - 48
+  - 53
+  redTeam:
+  - 23
+  - 59
+  - 89
+  - 51
+  - 55
   winner: red
-key: RGAPI-352b2c10-33de-4cef-8158-7b5122520ba2
+- !ruby/object:Match
+  matchId: 4416811773
+  blueTeam:
+  - 51
+  - 53
+  - 106
+  - 134
+  - 32
+  redTeam:
+  - 246
+  - 875
+  - 85
+  - 2
+  - 9
+  winner: blue

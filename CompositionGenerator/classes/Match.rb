@@ -1,7 +1,8 @@
 class Match
-	attr_reader :blueTeam, :redTeam, :winner
+	attr_reader :matchId, :blueTeam, :redTeam, :winner
 
-	def initialize(blue, red, win)
+	def initialize(id, blue, red, win)
+		@matchId = id
 		@blueTeam = blue
 		@redTeam = red
 		@winner = win

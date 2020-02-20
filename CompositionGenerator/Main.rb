@@ -47,11 +47,11 @@ loop do
     if input == "quit" || input == "stop" || input == "exit"
     	break  	
     elsif input == "get"
-        p "Searching for matches..."
-        calculator.count(gets.chomp.downcase.strip, matchList.history)
+        print "Select a champion: "
+        calculator.count(gets.chomp.capitalize.strip)
     elsif input == "add"
         print "Put in the gameId: "
-        matchId = gets.chomp.uppercase.strip
+        matchId = gets.chomp.strip
         game = dataLoader.getMatch(matchId)
         puts matchList.history = game
     elsif input == "history"

@@ -1,6 +1,6 @@
 class DataGrabber
 	def initialize
-		@key = "RGAPI-45960c46-0288-4b01-9b66-aea98bf49116"
+		@key = "RGAPI-39cf7945-abda-4e81-b929-9c95e44d0ab0"
 	end
 
 	def getMatch(matchId)
@@ -43,4 +43,11 @@ class DataGrabber
             puts "\nAdding match aborted"
         end
 	end
+
+    def getManyMatch()
+        matches =*(4416811773..4416811793)
+        matches.each{ |match| 
+            getMatch(match)
+        }
+    end
 end

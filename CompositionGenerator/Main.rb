@@ -49,6 +49,8 @@ loop do
     elsif input == "get"
         print "Select a champion: "
         calculator.count(gets.chomp.capitalize.strip)
+    elsif input == "addmany"
+        dataLoader.getManyMatch
     elsif input == "add"
         print "Put in the gameId: "
         matchId = gets.chomp.strip

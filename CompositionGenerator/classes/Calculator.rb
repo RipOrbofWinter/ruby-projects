@@ -28,8 +28,8 @@ class Calculator
 		matches = 0
 		wins = 0
 		puts "Searching for matches..."
-		history = YAML.load(File.read("saves/MatchHistory.yml"))
-		history.each do |i|
+		matchList = YAML.load(File.read("saves/MatchHistory.yml"))
+		matchList.history.each do |i|
 			counter = 0
 			while counter <=5
 				if i.blueTeam[counter] == championId
@@ -51,6 +51,6 @@ class Calculator
 
 	def count(championName)
 		championId = to_chI(championName)
-		p "#{championName} has a winrate of #{searchChampionGames(championName)}%."
+		p "#{championName} has a winrate of #{searchChampionGames(championId)}%."
 	end
 end

@@ -47,8 +47,10 @@ loop do
     if input == "quit" || input == "stop" || input == "exit"
     	break  	
     elsif input == "get"
-        p "Searching for matches..."
-        calculator.count(gets.chomp.downcase.strip, matchList.history)
+        puts "Searching for matches..."
+
+        winrate = calculator.count(gets.chomp.downcase.strip, matchList.history)
+        print winrate
     elsif input == "add"
         print "Put in the gameId: "
         matchId = gets.chomp.uppercase.strip
@@ -61,7 +63,6 @@ loop do
         puts "File saved"
     elsif input == "test"
 
-        # calculator.to_chN(champion_options, 18)
     elsif input == "help"
     	 puts "\nList of Commmands: quit, get, add, history, test, save, load.\n"
     else

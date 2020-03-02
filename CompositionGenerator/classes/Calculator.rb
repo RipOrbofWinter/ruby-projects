@@ -40,6 +40,6 @@ class Calculator
 				counter +=1
 			end
 		end
-		p "This champion played #{matches} of which they won #{wins}"
+		return "This champion played #{matches} of which they won #{wins}"
 	end
 end

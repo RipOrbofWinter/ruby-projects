@@ -56,13 +56,16 @@ loop do
         matchId = gets.chomp.strip
         game = dataLoader.getMatch(matchId)
         puts matchList.history = game
-    elsif input == "history"
-        matchList.printHistory(calculator, champion_options)
+    # elsif input == "history"
+    #     matchList.printHistory(calculator, champion_options)
     elsif input == "save"
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(matchList.to_yaml) }
         puts "File saved"
     elsif input == "test"
-        dataLoader.getLeague
+        games = dataLoader.getByLeague
+        games.each{ |game|
+            puts matchList.history = game
+        }
     elsif input == "help"
     	 puts "\nList of Commmands: quit, get, add, addMany, history, test, save, load.\n"
     else

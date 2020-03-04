@@ -53,8 +53,9 @@ class Calculator
 
 	def count(championName)
 		championId = to_chI(championName)
+		matches = getWins
 		if championId != nil
-			puts "#{championName} has a winrate of #{getWins(championId)}%."
+			puts "#{championName} has out of #{matches} matches, a winrate of #{getWins(championId)}%."
 		else
 			puts "Unknown championName" 
 		end

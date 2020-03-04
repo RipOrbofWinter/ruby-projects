@@ -30,3 +30,63 @@ history:
   - 2
   - 9
   winner: blue
+- !ruby/object:Match
+  matchId: 4388068229
+  blueTeam:
+  - 51
+  - 157
+  - 112
+  - 25
+  - 2
+  redTeam:
+  - 523
+  - 85
+  - 555
+  - 246
+  - 106
+  winner: red
+- !ruby/object:Match
+  matchId: 4424551855
+  blueTeam:
+  - 517
+  - 56
+  - 497
+  - 875
+  - 81
+  redTeam:
+  - 29
+  - 106
+  - 103
+  - 412
+  - 51
+  winner: red
+- !ruby/object:Match
+  matchId: 4387626783
+  blueTeam:
+  - 83
+  - 29
+  - 245
+  - 53
+  - 235
+  redTeam:
+  - 246
+  - 54
+  - 122
+  - 412
+  - 18
+  winner: blue
+- !ruby/object:Match
+  matchId: 4412722122
+  blueTeam:
+  - 246
+  - 58
+  - 36
+  - 222
+  - 117
+  redTeam:
+  - 24
+  - 145
+  - 267
+  - 45
+  - 11
+  winner: red

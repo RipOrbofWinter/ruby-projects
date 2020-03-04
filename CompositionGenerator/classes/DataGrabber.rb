@@ -54,8 +54,9 @@ class DataGrabber
         }
     end
 
-    def getLeague()
+    def getByLeague()
         tiers = ["I", "II", "III", "IV"]
+        games = Array.new()
         tiers.each{ |tier|
             # get random user from specified elo
             url = "https://euw1.api.riotgames.com/lol/league/v4/entries/RANKED_FLEX_SR/PLATINUM/#{tier}?page=#{rand(1..10)}"
@@ -72,9 +73,8 @@ class DataGrabber
             url = "https://euw1.api.riotgames.com/lol/match/v4/matchlists/by-account/#{my_hash}?queue=440"
             response = HTTParty.get(url, headers: headers)
             my_hash = JSON.parse(response.body)
-            p my_hash["matches"][rand(1..50)][gameId]
-
-            
+            games.push(self.getMatch(my_hash["matches"][rand(1..20)]["gameId"]))
         }
+        return games
     end
 end

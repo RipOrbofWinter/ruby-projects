@@ -1,6 +1,6 @@
 class DataGrabber
 	def initialize
-		@key = "RGAPI-39cf7945-abda-4e81-b929-9c95e44d0ab0"
+		@key = "RGAPI-8e57f05a-67e1-4dd9-b22d-8ec0836146d9"
 	end
 
 	def getMatch(matchId)
@@ -35,7 +35,7 @@ class DataGrabber
             elsif my_hash["teams"][1]["win"] == "Win"
                 winner = "red"
             else
-                puts "No winner found; wtf Rito games"
+                puts "No winner found; Rito games strikes again"
             end
             game = Match.new(my_hash["gameId"], blueTeam, redTeam, winner) 
             return game
@@ -45,9 +45,36 @@ class DataGrabber
 	end
 
     def getManyMatch()
-        matches =*(4416811773..4416811793)
+        # not tested/ in development
+        matches = 4416811773
+        my_match = Array.new(20)
         matches.each{ |match| 
-            getMatch(match)
+            my_match. getMatch(match)
+            p my_match
+        }
+    end
+
+    def getLeague()
+        tiers = ["I", "II", "III", "IV"]
+        tiers.each{ |tier|
+            # get random user from specified elo
+            url = "https://euw1.api.riotgames.com/lol/league/v4/entries/RANKED_FLEX_SR/PLATINUM/#{tier}?page=#{rand(1..10)}"
+            headers = { 'X-Riot-Token': "#{@key}" }
+            response = HTTParty.get(url, headers: headers)
+            my_hash = JSON.parse(response.body)
+            my_hash = my_hash[rand(1..200)]["summonerId"]
+            # get accountID for match history
+            url = "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/#{my_hash}"
+            response = HTTParty.get(url, headers: headers)
+            my_hash = JSON.parse(response.body)
+            my_hash = my_hash["accountId"]
+            # get a match with the acount id
+            url = "https://euw1.api.riotgames.com/lol/match/v4/matchlists/by-account/#{my_hash}?queue=440"
+            response = HTTParty.get(url, headers: headers)
+            my_hash = JSON.parse(response.body)
+            p my_hash["matches"][rand(1..50)][gameId]
+
+            
         }
     end
 end

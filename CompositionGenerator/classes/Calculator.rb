@@ -17,6 +17,7 @@ class Calculator
                 return n[0]
             end
         }
+        return nil
 	end
 
 	def winrate(matches, wins)
@@ -24,7 +25,7 @@ class Calculator
 		return percentage.to_i
 	end
 
-	def searchChampionGames(championId)
+	def getWins(championId)
 		matches = 0
 		wins = 0
 		puts "Searching for matches..."
@@ -52,6 +53,10 @@ class Calculator
 
 	def count(championName)
 		championId = to_chI(championName)
-		p "#{championName} has a winrate of #{searchChampionGames(championId)}%."
+		if championId != nil
+			puts "#{championName} has a winrate of #{getWins(championId)}%."
+		else
+			puts "Unknown championName" 
+		end
 	end
 end

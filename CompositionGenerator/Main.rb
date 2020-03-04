@@ -62,9 +62,9 @@ loop do
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(matchList.to_yaml) }
         puts "File saved"
     elsif input == "test"
-
+        dataLoader.getLeague
     elsif input == "help"
-    	 puts "\nList of Commmands: quit, get, add, history, test, save, load.\n"
+    	 puts "\nList of Commmands: quit, get, add, addMany, history, test, save, load.\n"
     else
     	puts "Not an acceptable command, try 'help' for the list of commands."
     end

@@ -48,14 +48,14 @@ class Calculator
 			end
 		end
 
-		return winrate(matches, wins)
+		return [matches, winrate(matches, wins)]
 	end
 
 	def count(championName)
 		championId = to_chI(championName)
-		matches = getWins
+		matches = getWins(championId)
 		if championId != nil
-			puts "#{championName} has out of #{matches} matches, a winrate of #{getWins(championId)}%."
+			puts "#{championName} has out of #{matches[0]} matches, a winrate of #{matches[1]}%."
 		else
 			puts "Unknown championName" 
 		end

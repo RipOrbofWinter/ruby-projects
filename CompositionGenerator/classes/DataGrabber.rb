@@ -45,13 +45,6 @@ class DataGrabber
 	end
 
     def getManyMatch()
-        # not tested/ in development
-        matches = 4416811773
-        my_match = Array.new(20)
-        matches.each{ |match| 
-            my_match. getMatch(match)
-            p my_match
-        }
     end
 
     def getByLeague()

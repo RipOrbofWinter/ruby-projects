@@ -1,6 +1,6 @@
 class DataGrabber
 	def initialize
-		@key = "RGAPI-8e57f05a-67e1-4dd9-b22d-8ec0836146d9"
+		@key = "RGAPI-8ea94ccc-4fea-428e-990e-a9f2aad7de6b"
 	end
 
 	def getMatch(matchId)

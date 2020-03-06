@@ -55,7 +55,7 @@ loop do
         game = dataLoader.getMatch(matchId)
         puts matchList.history = game
     elsif input == "addmany"
-                games = dataLoader.getByLeague
+        games = dataLoader.getByLeague
         games.each{ |game|
             puts matchList.history = game
         }

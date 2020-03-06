@@ -510,3 +510,7128 @@ history:
   - 9
   - 236
   winner: red
+- !ruby/object:Match
+  matchId: 4440769519
+  blueTeam:
+  - 498
+  - 64
+  - 268
+  - 516
+  - 497
+  redTeam:
+  - 114
+  - 131
+  - 104
+  - 67
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4425590788
+  blueTeam:
+  - 21
+  - 79
+  - 122
+  - 39
+  - 111
+  redTeam:
+  - 429
+  - 516
+  - 7
+  - 64
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4416871503
+  blueTeam:
+  - 523
+  - 143
+  - 2
+  - 103
+  - 420
+  redTeam:
+  - 17
+  - 875
+  - 240
+  - 21
+  - 267
+  winner: red
+- !ruby/object:Match
+  matchId: 4382077574
+  blueTeam:
+  - 555
+  - 30
+  - 238
+  - 236
+  - 875
+  redTeam:
+  - 89
+  - 51
+  - 36
+  - 85
+  - 157
+  winner: blue
+- !ruby/object:Match
+  matchId: 4438438861
+  blueTeam:
+  - 115
+  - 875
+  - 223
+  - 67
+  - 131
+  redTeam:
+  - 64
+  - 105
+  - 58
+  - 157
+  - 106
+  winner: red
+- !ruby/object:Match
+  matchId: 4415589279
+  blueTeam:
+  - 89
+  - 81
+  - 122
+  - 99
+  - 33
+  redTeam:
+  - 58
+  - 8
+  - 223
+  - 875
+  - 110
+  winner: blue
+- !ruby/object:Match
+  matchId: 4427343500
+  blueTeam:
+  - 412
+  - 523
+  - 875
+  - 113
+  - 157
+  redTeam:
+  - 498
+  - 5
+  - 35
+  - 266
+  - 115
+  winner: red
+- !ruby/object:Match
+  matchId: 4378052120
+  blueTeam:
+  - 84
+  - 8
+  - 16
+  - 60
+  - 81
+  redTeam:
+  - 51
+  - 53
+  - 27
+  - 104
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4422021786
+  blueTeam:
+  - 498
+  - 497
+  - 268
+  - 35
+  - 86
+  redTeam:
+  - 238
+  - 9
+  - 429
+  - 412
+  - 133
+  winner: blue
+- !ruby/object:Match
+  matchId: 4321593939
+  blueTeam:
+  - 164
+  - 142
+  - 40
+  - 64
+  - 202
+  redTeam:
+  - 131
+  - 112
+  - 412
+  - 236
+  - 59
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439706236
+  blueTeam:
+  - 236
+  - 32
+  - 50
+  - 157
+  - 99
+  redTeam:
+  - 69
+  - 107
+  - 350
+  - 56
+  - 131
+  winner: red
+- !ruby/object:Match
+  matchId: 4419357692
+  blueTeam:
+  - 2
+  - 350
+  - 10
+  - 81
+  - 142
+  redTeam:
+  - 518
+  - 51
+  - 99
+  - 11
+  - 44
+  winner: red
+- !ruby/object:Match
+  matchId: 4439705306
+  blueTeam:
+  - 145
+  - 350
+  - 136
+  - 33
+  - 150
+  redTeam:
+  - 99
+  - 59
+  - 114
+  - 42
+  - 103
+  winner: red
+- !ruby/object:Match
+  matchId: 4392879326
+  blueTeam:
+  - 202
+  - 246
+  - 35
+  - 412
+  - 13
+  redTeam:
+  - 157
+  - 55
+  - 121
+  - 111
+  - 266
+  winner: blue
+- !ruby/object:Match
+  matchId: 4436175255
+  blueTeam:
+  - 26
+  - 7
+  - 56
+  - 222
+  - 98
+  redTeam:
+  - 81
+  - 268
+  - 555
+  - 2
+  - 157
+  winner: blue
+- !ruby/object:Match
+  matchId: 4353593079
+  blueTeam:
+  - 38
+  - 107
+  - 82
+  - 26
+  - 202
+  redTeam:
+  - 56
+  - 8
+  - 223
+  - 555
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4382423651
+  blueTeam:
+  - 91
+  - 26
+  - 163
+  - 516
+  - 517
+  redTeam:
+  - 11
+  - 42
+  - 202
+  - 83
+  - 117
+  winner: red
+- !ruby/object:Match
+  matchId: 4439926789
+  blueTeam:
+  - 67
+  - 22
+  - 76
+  - 9
+  - 11
+  redTeam:
+  - 103
+  - 12
+  - 10
+  - 2
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4436073958
+  blueTeam:
+  - 81
+  - 57
+  - 134
+  - 875
+  - 114
+  redTeam:
+  - 103
+  - 267
+  - 69
+  - 64
+  - 517
+  winner: blue
+- !ruby/object:Match
+  matchId: 4416679295
+  blueTeam:
+  - 202
+  - 6
+  - 61
+  - 350
+  - 59
+  redTeam:
+  - 43
+  - 134
+  - 235
+  - 421
+  - 122
+  winner: red
+- !ruby/object:Match
+  matchId: 4418548973
+  blueTeam:
+  - 203
+  - 37
+  - 161
+  - 429
+  - 350
+  redTeam:
+  - 21
+  - 113
+  - 131
+  - 111
+  - 16
+  winner: red
+- !ruby/object:Match
+  matchId: 4407948794
+  blueTeam:
+  - 113
+  - 59
+  - 58
+  - 45
+  - 64
+  redTeam:
+  - 523
+  - 432
+  - 35
+  - 86
+  - 245
+  winner: red
+- !ruby/object:Match
+  matchId: 4413285393
+  blueTeam:
+  - 39
+  - 2
+  - 89
+  - 45
+  - 145
+  redTeam:
+  - 412
+  - 78
+  - 106
+  - 103
+  - 51
+  winner: red
+- !ruby/object:Match
+  matchId: 4428284422
+  blueTeam:
+  - 98
+  - 236
+  - 2
+  - 89
+  - 112
+  redTeam:
+  - 55
+  - 81
+  - 102
+  - 8
+  - 555
+  winner: red
+- !ruby/object:Match
+  matchId: 4434343758
+  blueTeam:
+  - 91
+  - 875
+  - 163
+  - 32
+  - 80
+  redTeam:
+  - 421
+  - 81
+  - 235
+  - 68
+  - 516
+  winner: red
+- !ruby/object:Match
+  matchId: 4370214911
+  blueTeam:
+  - 875
+  - 5
+  - 61
+  - 21
+  - 111
+  redTeam:
+  - 245
+  - 235
+  - 112
+  - 81
+  - 92
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437859741
+  blueTeam:
+  - 10
+  - 246
+  - 235
+  - 28
+  - 81
+  redTeam:
+  - 117
+  - 18
+  - 56
+  - 134
+  - 516
+  winner: blue
+- !ruby/object:Match
+  matchId: 4361099176
+  blueTeam:
+  - 17
+  - 136
+  - 245
+  - 236
+  - 86
+  redTeam:
+  - 68
+  - 26
+  - 7
+  - 222
+  - 56
+  winner: red
+- !ruby/object:Match
+  matchId: 4435510947
+  blueTeam:
+  - 24
+  - 23
+  - 222
+  - 117
+  - 13
+  redTeam:
+  - 516
+  - 8
+  - 64
+  - 101
+  - 202
+  winner: red
+- !ruby/object:Match
+  matchId: 4410169114
+  blueTeam:
+  - 432
+  - 121
+  - 202
+  - 142
+  - 150
+  redTeam:
+  - 245
+  - 236
+  - 16
+  - 235
+  - 420
+  winner: blue
+- !ruby/object:Match
+  matchId: 4432454272
+  blueTeam:
+  - 267
+  - 55
+  - 32
+  - 86
+  - 222
+  redTeam:
+  - 235
+  - 517
+  - 236
+  - 19
+  - 103
+  winner: blue
+- !ruby/object:Match
+  matchId: 4386997354
+  blueTeam:
+  - 21
+  - 36
+  - 150
+  - 45
+  - 235
+  redTeam:
+  - 523
+  - 16
+  - 103
+  - 64
+  - 82
+  winner: blue
+- !ruby/object:Match
+  matchId: 4419057914
+  blueTeam:
+  - 54
+  - 163
+  - 80
+  - 81
+  - 350
+  redTeam:
+  - 82
+  - 523
+  - 53
+  - 60
+  - 91
+  winner: blue
+- !ruby/object:Match
+  matchId: 4422069456
+  blueTeam:
+  - 8
+  - 17
+  - 119
+  - 875
+  - 50
+  redTeam:
+  - 267
+  - 246
+  - 516
+  - 28
+  - 266
+  winner: blue
+- !ruby/object:Match
+  matchId: 4372857034
+  blueTeam:
+  - 51
+  - 82
+  - 117
+  - 64
+  - 55
+  redTeam:
+  - 236
+  - 111
+  - 238
+  - 23
+  - 106
+  winner: blue
+- !ruby/object:Match
+  matchId: 4431942416
+  blueTeam:
+  - 523
+  - 44
+  - 117
+  - 24
+  - 43
+  redTeam:
+  - 157
+  - 875
+  - 12
+  - 39
+  - 154
+  winner: red
+- !ruby/object:Match
+  matchId: 4394516397
+  blueTeam:
+  - 6
+  - 142
+  - 81
+  - 56
+  - 267
+  redTeam:
+  - 222
+  - 84
+  - 80
+  - 163
+  - 89
+  winner: red
+- !ruby/object:Match
+  matchId: 4396798300
+  blueTeam:
+  - 412
+  - 222
+  - 67
+  - 134
+  - 154
+  redTeam:
+  - 141
+  - 131
+  - 498
+  - 201
+  - 875
+  winner: red
+- !ruby/object:Match
+  matchId: 4429301084
+  blueTeam:
+  - 99
+  - 53
+  - 238
+  - 11
+  - 39
+  redTeam:
+  - 51
+  - 555
+  - 154
+  - 86
+  - 157
+  winner: red
+- !ruby/object:Match
+  matchId: 4421674378
+  blueTeam:
+  - 236
+  - 59
+  - 55
+  - 235
+  - 75
+  redTeam:
+  - 81
+  - 516
+  - 107
+  - 37
+  - 7
+  winner: blue
+- !ruby/object:Match
+  matchId: 4435416550
+  blueTeam:
+  - 51
+  - 48
+  - 161
+  - 350
+  - 427
+  redTeam:
+  - 421
+  - 25
+  - 202
+  - 54
+  - 432
+  winner: blue
+- !ruby/object:Match
+  matchId: 4441812458
+  blueTeam:
+  - 40
+  - 67
+  - 157
+  - 112
+  - 120
+  redTeam:
+  - 145
+  - 82
+  - 254
+  - 117
+  - 240
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437341325
+  blueTeam:
+  - 4
+  - 420
+  - 516
+  - 79
+  - 157
+  redTeam:
+  - 245
+  - 82
+  - 22
+  - 235
+  - 3
+  winner: red
+- !ruby/object:Match
+  matchId: 4423215363
+  blueTeam:
+  - 86
+  - 105
+  - 107
+  - 51
+  - 53
+  redTeam:
+  - 9
+  - 120
+  - 555
+  - 164
+  - 18
+  winner: blue
+- !ruby/object:Match
+  matchId: 4426918823
+  blueTeam:
+  - 111
+  - 236
+  - 10
+  - 421
+  - 84
+  redTeam:
+  - 105
+  - 235
+  - 19
+  - 82
+  - 523
+  winner: red
+- !ruby/object:Match
+  matchId: 4399010030
+  blueTeam:
+  - 875
+  - 67
+  - 235
+  - 29
+  - 517
+  redTeam:
+  - 27
+  - 76
+  - 238
+  - 412
+  - 110
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437235090
+  blueTeam:
+  - 90
+  - 51
+  - 266
+  - 59
+  - 235
+  redTeam:
+  - 45
+  - 64
+  - 429
+  - 412
+  - 58
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429726639
+  blueTeam:
+  - 115
+  - 23
+  - 69
+  - 64
+  - 432
+  redTeam:
+  - 99
+  - 238
+  - 45
+  - 59
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4404735250
+  blueTeam:
+  - 202
+  - 54
+  - 16
+  - 412
+  - 154
+  redTeam:
+  - 2
+  - 245
+  - 59
+  - 111
+  - 236
+  winner: red
+- !ruby/object:Match
+  matchId: 4419638416
+  blueTeam:
+  - 29
+  - 122
+  - 84
+  - 63
+  - 56
+  redTeam:
+  - 80
+  - 35
+  - 54
+  - 121
+  - 81
+  winner: red
+- !ruby/object:Match
+  matchId: 4398593105
+  blueTeam:
+  - 54
+  - 62
+  - 51
+  - 33
+  - 53
+  redTeam:
+  - 141
+  - 235
+  - 40
+  - 82
+  - 99
+  winner: red
+- !ruby/object:Match
+  matchId: 4390916916
+  blueTeam:
+  - 107
+  - 875
+  - 81
+  - 235
+  - 112
+  redTeam:
+  - 236
+  - 412
+  - 141
+  - 67
+  - 68
+  winner: blue
+- !ruby/object:Match
+  matchId: 4388908688
+  blueTeam:
+  - 8
+  - 110
+  - 201
+  - 157
+  - 79
+  redTeam:
+  - 122
+  - 101
+  - 76
+  - 412
+  - 202
+  winner: red
+- !ruby/object:Match
+  matchId: 4440958536
+  blueTeam:
+  - 240
+  - 236
+  - 201
+  - 517
+  - 154
+  redTeam:
+  - 18
+  - 31
+  - 98
+  - 32
+  - 55
+  winner: red
+- !ruby/object:Match
+  matchId: 4432669724
+  blueTeam:
+  - 131
+  - 516
+  - 523
+  - 25
+  - 113
+  redTeam:
+  - 268
+  - 235
+  - 59
+  - 34
+  - 875
+  winner: red
+- !ruby/object:Match
+  matchId: 4404785620
+  blueTeam:
+  - 122
+  - 81
+  - 61
+  - 64
+  - 143
+  redTeam:
+  - 13
+  - 43
+  - 59
+  - 240
+  - 235
+  winner: blue
+- !ruby/object:Match
+  matchId: 4416347710
+  blueTeam:
+  - 36
+  - 103
+  - 432
+  - 875
+  - 81
+  redTeam:
+  - 48
+  - 1
+  - 79
+  - 51
+  - 98
+  winner: red
+- !ruby/object:Match
+  matchId: 4423523008
+  blueTeam:
+  - 54
+  - 102
+  - 238
+  - 53
+  - 81
+  redTeam:
+  - 145
+  - 59
+  - 69
+  - 875
+  - 25
+  winner: blue
+- !ruby/object:Match
+  matchId: 4336305001
+  blueTeam:
+  - 432
+  - 92
+  - 21
+  - 112
+  - 2
+  redTeam:
+  - 58
+  - 4
+  - 64
+  - 111
+  - 81
+  winner: blue
+- !ruby/object:Match
+  matchId: 4436453881
+  blueTeam:
+  - 27
+  - 80
+  - 161
+  - 51
+  - 63
+  redTeam:
+  - 201
+  - 157
+  - 19
+  - 21
+  - 7
+  winner: blue
+- !ruby/object:Match
+  matchId: 4376950319
+  blueTeam:
+  - 104
+  - 69
+  - 39
+  - 55
+  - 111
+  redTeam:
+  - 235
+  - 82
+  - 421
+  - 68
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4372517405
+  blueTeam:
+  - 84
+  - 555
+  - 134
+  - 51
+  - 20
+  redTeam:
+  - 236
+  - 113
+  - 142
+  - 57
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4357584900
+  blueTeam:
+  - 201
+  - 79
+  - 236
+  - 7
+  - 122
+  redTeam:
+  - 85
+  - 103
+  - 498
+  - 19
+  - 131
+  winner: blue
+- !ruby/object:Match
+  matchId: 4400413482
+  blueTeam:
+  - 498
+  - 81
+  - 497
+  - 28
+  - 82
+  redTeam:
+  - 266
+  - 42
+  - 35
+  - 31
+  - 59
+  winner: red
+- !ruby/object:Match
+  matchId: 4436148197
+  blueTeam:
+  - 30
+  - 498
+  - 14
+  - 157
+  - 40
+  redTeam:
+  - 98
+  - 61
+  - 235
+  - 39
+  - 154
+  winner: red
+- !ruby/object:Match
+  matchId: 4362587270
+  blueTeam:
+  - 6
+  - 142
+  - 236
+  - 53
+  - 107
+  redTeam:
+  - 555
+  - 69
+  - 517
+  - 19
+  - 83
+  winner: red
+- !ruby/object:Match
+  matchId: 4430054973
+  blueTeam:
+  - 75
+  - 111
+  - 45
+  - 157
+  - 64
+  redTeam:
+  - 86
+  - 122
+  - 222
+  - 246
+  - 117
+  winner: blue
+- !ruby/object:Match
+  matchId: 4431988017
+  blueTeam:
+  - 412
+  - 11
+  - 85
+  - 55
+  - 51
+  redTeam:
+  - 98
+  - 127
+  - 254
+  - 81
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4431119683
+  blueTeam:
+  - 69
+  - 90
+  - 122
+  - 27
+  - 17
+  redTeam:
+  - 157
+  - 134
+  - 26
+  - 202
+  - 104
+  winner: red
+- !ruby/object:Match
+  matchId: 4381484536
+  blueTeam:
+  - 245
+  - 8
+  - 555
+  - 523
+  - 64
+  redTeam:
+  - 79
+  - 412
+  - 86
+  - 236
+  - 39
+  winner: red
+- !ruby/object:Match
+  matchId: 4219022233
+  blueTeam:
+  - 14
+  - 412
+  - 145
+  - 35
+  - 8
+  redTeam:
+  - 89
+  - 51
+  - 45
+  - 56
+  - 516
+  winner: blue
+- !ruby/object:Match
+  matchId: 4431971207
+  blueTeam:
+  - 69
+  - 154
+  - 122
+  - 235
+  - 111
+  redTeam:
+  - 89
+  - 51
+  - 238
+  - 86
+  - 2
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437067834
+  blueTeam:
+  - 875
+  - 15
+  - 99
+  - 24
+  - 72
+  redTeam:
+  - 21
+  - 39
+  - 114
+  - 111
+  - 60
+  winner: blue
+- !ruby/object:Match
+  matchId: 4430892491
+  blueTeam:
+  - 81
+  - 235
+  - 8
+  - 48
+  - 31
+  redTeam:
+  - 112
+  - 17
+  - 16
+  - 113
+  - 202
+  winner: blue
+- !ruby/object:Match
+  matchId: 4396789360
+  blueTeam:
+  - 60
+  - 875
+  - 202
+  - 131
+  - 37
+  redTeam:
+  - 2
+  - 16
+  - 498
+  - 82
+  - 517
+  winner: blue
+- !ruby/object:Match
+  matchId: 4436786766
+  blueTeam:
+  - 48
+  - 112
+  - 96
+  - 117
+  - 122
+  redTeam:
+  - 235
+  - 44
+  - 113
+  - 24
+  - 157
+  winner: blue
+- !ruby/object:Match
+  matchId: 4430085452
+  blueTeam:
+  - 157
+  - 350
+  - 154
+  - 54
+  - 142
+  redTeam:
+  - 266
+  - 64
+  - 136
+  - 498
+  - 63
+  winner: red
+- !ruby/object:Match
+  matchId: 4429738120
+  blueTeam:
+  - 236
+  - 89
+  - 13
+  - 875
+  - 64
+  redTeam:
+  - 518
+  - 24
+  - 51
+  - 25
+  - 113
+  winner: blue
+- !ruby/object:Match
+  matchId: 4428405171
+  blueTeam:
+  - 201
+  - 236
+  - 79
+  - 8
+  - 266
+  redTeam:
+  - 154
+  - 89
+  - 21
+  - 517
+  - 56
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429816450
+  blueTeam:
+  - 516
+  - 22
+  - 127
+  - 33
+  - 40
+  redTeam:
+  - 141
+  - 114
+  - 67
+  - 8
+  - 350
+  winner: red
+- !ruby/object:Match
+  matchId: 4426425486
+  blueTeam:
+  - 48
+  - 518
+  - 21
+  - 114
+  - 8
+  redTeam:
+  - 18
+  - 154
+  - 122
+  - 412
+  - 38
+  winner: red
+- !ruby/object:Match
+  matchId: 4376752204
+  blueTeam:
+  - 154
+  - 99
+  - 235
+  - 161
+  - 80
+  redTeam:
+  - 114
+  - 121
+  - 53
+  - 45
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4354704410
+  blueTeam:
+  - 76
+  - 236
+  - 69
+  - 111
+  - 99
+  redTeam:
+  - 25
+  - 268
+  - 134
+  - 266
+  - 245
+  winner: blue
+- !ruby/object:Match
+  matchId: 4415609795
+  blueTeam:
+  - 59
+  - 22
+  - 58
+  - 9
+  - 105
+  redTeam:
+  - 51
+  - 2
+  - 89
+  - 268
+  - 516
+  winner: red
+- !ruby/object:Match
+  matchId: 4434672853
+  blueTeam:
+  - 266
+  - 245
+  - 81
+  - 53
+  - 555
+  redTeam:
+  - 517
+  - 60
+  - 202
+  - 24
+  - 350
+  winner: red
+- !ruby/object:Match
+  matchId: 4433626784
+  blueTeam:
+  - 110
+  - 201
+  - 78
+  - 245
+  - 64
+  redTeam:
+  - 111
+  - 134
+  - 875
+  - 67
+  - 60
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437852905
+  blueTeam:
+  - 105
+  - 81
+  - 104
+  - 24
+  - 99
+  redTeam:
+  - 63
+  - 8
+  - 51
+  - 84
+  - 59
+  winner: red
+- !ruby/object:Match
+  matchId: 4436699738
+  blueTeam:
+  - 61
+  - 54
+  - 154
+  - 35
+  - 51
+  redTeam:
+  - 421
+  - 134
+  - 555
+  - 15
+  - 43
+  winner: red
+- !ruby/object:Match
+  matchId: 4391908313
+  blueTeam:
+  - 267
+  - 121
+  - 61
+  - 98
+  - 875
+  redTeam:
+  - 223
+  - 35
+  - 145
+  - 75
+  - 55
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424079544
+  blueTeam:
+  - 516
+  - 51
+  - 235
+  - 238
+  - 2
+  redTeam:
+  - 81
+  - 59
+  - 164
+  - 497
+  - 90
+  winner: red
+- !ruby/object:Match
+  matchId: 4366193847
+  blueTeam:
+  - 235
+  - 555
+  - 122
+  - 30
+  - 157
+  redTeam:
+  - 145
+  - 142
+  - 875
+  - 59
+  - 412
+  winner: blue
+- !ruby/object:Match
+  matchId: 4410524417
+  blueTeam:
+  - 497
+  - 98
+  - 67
+  - 7
+  - 64
+  redTeam:
+  - 81
+  - 412
+  - 104
+  - 38
+  - 36
+  winner: blue
+- !ruby/object:Match
+  matchId: 4425762923
+  blueTeam:
+  - 77
+  - 235
+  - 25
+  - 85
+  - 161
+  redTeam:
+  - 201
+  - 76
+  - 134
+  - 67
+  - 122
+  winner: blue
+- !ruby/object:Match
+  matchId: 4418118653
+  blueTeam:
+  - 21
+  - 203
+  - 89
+  - 10
+  - 115
+  redTeam:
+  - 266
+  - 8
+  - 246
+  - 19
+  - 432
+  winner: red
+- !ruby/object:Match
+  matchId: 4357058373
+  blueTeam:
+  - 113
+  - 84
+  - 412
+  - 39
+  - 236
+  redTeam:
+  - 72
+  - 267
+  - 51
+  - 141
+  - 86
+  winner: red
+- !ruby/object:Match
+  matchId: 4439205344
+  blueTeam:
+  - 45
+  - 1
+  - 40
+  - 64
+  - 3
+  redTeam:
+  - 523
+  - 112
+  - 43
+  - 11
+  - 39
+  winner: red
+- !ruby/object:Match
+  matchId: 4438319623
+  blueTeam:
+  - 114
+  - 89
+  - 429
+  - 64
+  - 101
+  redTeam:
+  - 235
+  - 238
+  - 16
+  - 82
+  - 35
+  winner: red
+- !ruby/object:Match
+  matchId: 4351365437
+  blueTeam:
+  - 254
+  - 98
+  - 238
+  - 45
+  - 43
+  redTeam:
+  - 38
+  - 122
+  - 51
+  - 25
+  - 121
+  winner: blue
+- !ruby/object:Match
+  matchId: 4366684088
+  blueTeam:
+  - 99
+  - 254
+  - 350
+  - 21
+  - 84
+  redTeam:
+  - 516
+  - 64
+  - 267
+  - 51
+  - 13
+  winner: red
+- !ruby/object:Match
+  matchId: 4397067781
+  blueTeam:
+  - 5
+  - 45
+  - 41
+  - 111
+  - 110
+  redTeam:
+  - 235
+  - 74
+  - 134
+  - 2
+  - 875
+  winner: red
+- !ruby/object:Match
+  matchId: 4429999951
+  blueTeam:
+  - 74
+  - 238
+  - 98
+  - 154
+  - 50
+  redTeam:
+  - 111
+  - 64
+  - 18
+  - 266
+  - 517
+  winner: red
+- !ruby/object:Match
+  matchId: 4435333844
+  blueTeam:
+  - 104
+  - 69
+  - 266
+  - 350
+  - 222
+  redTeam:
+  - 113
+  - 61
+  - 111
+  - 21
+  - 164
+  winner: red
+- !ruby/object:Match
+  matchId: 4436935674
+  blueTeam:
+  - 57
+  - 157
+  - 50
+  - 238
+  - 2
+  redTeam:
+  - 246
+  - 77
+  - 21
+  - 9
+  - 516
+  winner: blue
+- !ruby/object:Match
+  matchId: 4430357893
+  blueTeam:
+  - 254
+  - 412
+  - 81
+  - 246
+  - 10
+  redTeam:
+  - 432
+  - 517
+  - 22
+  - 20
+  - 122
+  winner: red
+- !ruby/object:Match
+  matchId: 4437114498
+  blueTeam:
+  - 235
+  - 20
+  - 246
+  - 223
+  - 126
+  redTeam:
+  - 157
+  - 245
+  - 24
+  - 555
+  - 81
+  winner: red
+- !ruby/object:Match
+  matchId: 4409855173
+  blueTeam:
+  - 16
+  - 34
+  - 64
+  - 267
+  - 523
+  redTeam:
+  - 202
+  - 134
+  - 11
+  - 412
+  - 86
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440800293
+  blueTeam:
+  - 13
+  - 81
+  - 432
+  - 107
+  - 2
+  redTeam:
+  - 24
+  - 104
+  - 412
+  - 131
+  - 22
+  winner: blue
+- !ruby/object:Match
+  matchId: 4433094451
+  blueTeam:
+  - 58
+  - 517
+  - 235
+  - 64
+  - 99
+  redTeam:
+  - 121
+  - 236
+  - 555
+  - 61
+  - 54
+  winner: red
+- !ruby/object:Match
+  matchId: 4440899996
+  blueTeam:
+  - 74
+  - 161
+  - 48
+  - 53
+  - 429
+  redTeam:
+  - 120
+  - 67
+  - 16
+  - 114
+  - 69
+  winner: blue
+- !ruby/object:Match
+  matchId: 4387199541
+  blueTeam:
+  - 24
+  - 51
+  - 3
+  - 555
+  - 245
+  redTeam:
+  - 235
+  - 105
+  - 54
+  - 18
+  - 29
+  winner: red
+- !ruby/object:Match
+  matchId: 4350169767
+  blueTeam:
+  - 59
+  - 92
+  - 68
+  - 235
+  - 51
+  redTeam:
+  - 53
+  - 163
+  - 33
+  - 15
+  - 39
+  winner: blue
+- !ruby/object:Match
+  matchId: 4418248798
+  blueTeam:
+  - 222
+  - 112
+  - 114
+  - 245
+  - 412
+  redTeam:
+  - 145
+  - 432
+  - 45
+  - 98
+  - 79
+  winner: red
+- !ruby/object:Match
+  matchId: 4437697497
+  blueTeam:
+  - 40
+  - 8
+  - 516
+  - 2
+  - 202
+  redTeam:
+  - 555
+  - 114
+  - 42
+  - 163
+  - 412
+  winner: blue
+- !ruby/object:Match
+  matchId: 4386567570
+  blueTeam:
+  - 27
+  - 82
+  - 131
+  - 222
+  - 412
+  redTeam:
+  - 60
+  - 2
+  - 12
+  - 61
+  - 202
+  winner: blue
+- !ruby/object:Match
+  matchId: 4402136960
+  blueTeam:
+  - 30
+  - 86
+  - 157
+  - 37
+  - 236
+  redTeam:
+  - 107
+  - 523
+  - 7
+  - 50
+  - 80
+  winner: red
+- !ruby/object:Match
+  matchId: 4440267261
+  blueTeam:
+  - 45
+  - 497
+  - 29
+  - 30
+  - 875
+  redTeam:
+  - 145
+  - 154
+  - 268
+  - 11
+  - 50
+  winner: red
+- !ruby/object:Match
+  matchId: 4389367449
+  blueTeam:
+  - 43
+  - 235
+  - 7
+  - 20
+  - 98
+  redTeam:
+  - 157
+  - 45
+  - 420
+  - 74
+  - 35
+  winner: red
+- !ruby/object:Match
+  matchId: 4354702963
+  blueTeam:
+  - 245
+  - 246
+  - 84
+  - 25
+  - 145
+  redTeam:
+  - 69
+  - 59
+  - 89
+  - 58
+  - 119
+  winner: red
+- !ruby/object:Match
+  matchId: 4432590938
+  blueTeam:
+  - 69
+  - 497
+  - 121
+  - 498
+  - 114
+  redTeam:
+  - 245
+  - 107
+  - 57
+  - 51
+  - 63
+  winner: red
+- !ruby/object:Match
+  matchId: 4347826456
+  blueTeam:
+  - 235
+  - 54
+  - 157
+  - 51
+  - 245
+  redTeam:
+  - 58
+  - 145
+  - 120
+  - 38
+  - 555
+  winner: red
+- !ruby/object:Match
+  matchId: 4434762648
+  blueTeam:
+  - 51
+  - 161
+  - 11
+  - 39
+  - 16
+  redTeam:
+  - 141
+  - 82
+  - 268
+  - 235
+  - 412
+  winner: blue
+- !ruby/object:Match
+  matchId: 4396829004
+  blueTeam:
+  - 145
+  - 267
+  - 30
+  - 82
+  - 55
+  redTeam:
+  - 235
+  - 412
+  - 161
+  - 20
+  - 85
+  winner: red
+- !ruby/object:Match
+  matchId: 4419107781
+  blueTeam:
+  - 25
+  - 67
+  - 523
+  - 64
+  - 7
+  redTeam:
+  - 245
+  - 161
+  - 498
+  - 41
+  - 497
+  winner: red
+- !ruby/object:Match
+  matchId: 4390819340
+  blueTeam:
+  - 516
+  - 145
+  - 59
+  - 90
+  - 412
+  redTeam:
+  - 119
+  - 104
+  - 103
+  - 24
+  - 53
+  winner: red
+- !ruby/object:Match
+  matchId: 4407488418
+  blueTeam:
+  - 21
+  - 875
+  - 55
+  - 80
+  - 235
+  redTeam:
+  - 59
+  - 85
+  - 134
+  - 498
+  - 497
+  winner: blue
+- !ruby/object:Match
+  matchId: 4421754883
+  blueTeam:
+  - 17
+  - 12
+  - 2
+  - 26
+  - 222
+  redTeam:
+  - 114
+  - 89
+  - 34
+  - 102
+  - 429
+  winner: red
+- !ruby/object:Match
+  matchId: 4434895606
+  blueTeam:
+  - 86
+  - 235
+  - 37
+  - 134
+  - 79
+  redTeam:
+  - 21
+  - 245
+  - 59
+  - 412
+  - 150
+  winner: red
+- !ruby/object:Match
+  matchId: 4382422364
+  blueTeam:
+  - 30
+  - 516
+  - 84
+  - 67
+  - 412
+  redTeam:
+  - 517
+  - 875
+  - 235
+  - 50
+  - 45
+  winner: blue
+- !ruby/object:Match
+  matchId: 4383250607
+  blueTeam:
+  - 235
+  - 27
+  - 69
+  - 875
+  - 555
+  redTeam:
+  - 17
+  - 523
+  - 157
+  - 89
+  - 79
+  winner: blue
+- !ruby/object:Match
+  matchId: 4410917988
+  blueTeam:
+  - 17
+  - 412
+  - 31
+  - 64
+  - 523
+  redTeam:
+  - 2
+  - 127
+  - 114
+  - 111
+  - 81
+  winner: blue
+- !ruby/object:Match
+  matchId: 4377245753
+  blueTeam:
+  - 517
+  - 89
+  - 24
+  - 134
+  - 67
+  redTeam:
+  - 201
+  - 235
+  - 39
+  - 60
+  - 875
+  winner: red
+- !ruby/object:Match
+  matchId: 4416388207
+  blueTeam:
+  - 41
+  - 99
+  - 64
+  - 117
+  - 222
+  redTeam:
+  - 17
+  - 429
+  - 113
+  - 131
+  - 111
+  winner: red
+- !ruby/object:Match
+  matchId: 4414865835
+  blueTeam:
+  - 18
+  - 117
+  - 9
+  - 131
+  - 41
+  redTeam:
+  - 523
+  - 53
+  - 420
+  - 112
+  - 19
+  winner: red
+- !ruby/object:Match
+  matchId: 4388978457
+  blueTeam:
+  - 69
+  - 412
+  - 92
+  - 107
+  - 15
+  redTeam:
+  - 86
+  - 127
+  - 427
+  - 53
+  - 81
+  winner: red
+- !ruby/object:Match
+  matchId: 4412903220
+  blueTeam:
+  - 111
+  - 236
+  - 24
+  - 62
+  - 27
+  redTeam:
+  - 523
+  - 107
+  - 131
+  - 427
+  - 10
+  winner: red
+- !ruby/object:Match
+  matchId: 4418050268
+  blueTeam:
+  - 236
+  - 412
+  - 48
+  - 131
+  - 64
+  redTeam:
+  - 523
+  - 201
+  - 875
+  - 157
+  - 74
+  winner: red
+- !ruby/object:Match
+  matchId: 4409860448
+  blueTeam:
+  - 516
+  - 89
+  - 421
+  - 236
+  - 134
+  redTeam:
+  - 28
+  - 268
+  - 51
+  - 111
+  - 41
+  winner: red
+- !ruby/object:Match
+  matchId: 4439926789
+  blueTeam:
+  - 67
+  - 22
+  - 76
+  - 9
+  - 11
+  redTeam:
+  - 103
+  - 12
+  - 10
+  - 2
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4433480434
+  blueTeam:
+  - 875
+  - 115
+  - 236
+  - 57
+  - 412
+  redTeam:
+  - 121
+  - 13
+  - 266
+  - 67
+  - 89
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437240012
+  blueTeam:
+  - 59
+  - 267
+  - 240
+  - 21
+  - 8
+  redTeam:
+  - 246
+  - 54
+  - 51
+  - 56
+  - 25
+  winner: blue
+- !ruby/object:Match
+  matchId: 4430868755
+  blueTeam:
+  - 113
+  - 412
+  - 236
+  - 23
+  - 68
+  redTeam:
+  - 82
+  - 157
+  - 126
+  - 201
+  - 154
+  winner: red
+- !ruby/object:Match
+  matchId: 4395937693
+  blueTeam:
+  - 59
+  - 16
+  - 105
+  - 235
+  - 92
+  redTeam:
+  - 112
+  - 84
+  - 111
+  - 110
+  - 56
+  winner: blue
+- !ruby/object:Match
+  matchId: 4405328622
+  blueTeam:
+  - 235
+  - 154
+  - 54
+  - 12
+  - 10
+  redTeam:
+  - 2
+  - 18
+  - 89
+  - 103
+  - 86
+  winner: blue
+- !ruby/object:Match
+  matchId: 4365881926
+  blueTeam:
+  - 236
+  - 105
+  - 114
+  - 30
+  - 497
+  redTeam:
+  - 421
+  - 81
+  - 117
+  - 86
+  - 131
+  winner: red
+- !ruby/object:Match
+  matchId: 4425570492
+  blueTeam:
+  - 60
+  - 516
+  - 63
+  - 523
+  - 54
+  redTeam:
+  - 18
+  - 44
+  - 76
+  - 57
+  - 112
+  winner: red
+- !ruby/object:Match
+  matchId: 4395891587
+  blueTeam:
+  - 12
+  - 115
+  - 67
+  - 17
+  - 76
+  redTeam:
+  - 48
+  - 266
+  - 51
+  - 238
+  - 26
+  winner: red
+- !ruby/object:Match
+  matchId: 4420951205
+  blueTeam:
+  - 89
+  - 8
+  - 21
+  - 142
+  - 5
+  redTeam:
+  - 25
+  - 18
+  - 69
+  - 9
+  - 36
+  winner: blue
+- !ruby/object:Match
+  matchId: 4349063546
+  blueTeam:
+  - 145
+  - 44
+  - 82
+  - 8
+  - 266
+  redTeam:
+  - 136
+  - 60
+  - 157
+  - 143
+  - 420
+  winner: red
+- !ruby/object:Match
+  matchId: 4389182513
+  blueTeam:
+  - 40
+  - 80
+  - 59
+  - 498
+  - 8
+  redTeam:
+  - 60
+  - 875
+  - 117
+  - 82
+  - 145
+  winner: red
+- !ruby/object:Match
+  matchId: 4408249438
+  blueTeam:
+  - 117
+  - 43
+  - 121
+  - 105
+  - 164
+  redTeam:
+  - 516
+  - 115
+  - 421
+  - 202
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4389633822
+  blueTeam:
+  - 55
+  - 157
+  - 111
+  - 421
+  - 22
+  redTeam:
+  - 35
+  - 112
+  - 10
+  - 81
+  - 77
+  winner: red
+- !ruby/object:Match
+  matchId: 4397736031
+  blueTeam:
+  - 412
+  - 51
+  - 240
+  - 112
+  - 13
+  redTeam:
+  - 23
+  - 131
+  - 89
+  - 81
+  - 64
+  winner: red
+- !ruby/object:Match
+  matchId: 4430820654
+  blueTeam:
+  - 119
+  - 79
+  - 117
+  - 121
+  - 8
+  redTeam:
+  - 113
+  - 98
+  - 111
+  - 3
+  - 81
+  winner: blue
+- !ruby/object:Match
+  matchId: 4407698579
+  blueTeam:
+  - 498
+  - 43
+  - 54
+  - 154
+  - 55
+  redTeam:
+  - 267
+  - 235
+  - 59
+  - 90
+  - 31
+  winner: blue
+- !ruby/object:Match
+  matchId: 4288250700
+  blueTeam:
+  - 43
+  - 96
+  - 19
+  - 245
+  - 92
+  redTeam:
+  - 203
+  - 202
+  - 412
+  - 13
+  - 122
+  winner: blue
+- !ruby/object:Match
+  matchId: 4300868126
+  blueTeam:
+  - 35
+  - 202
+  - 235
+  - 8
+  - 82
+  redTeam:
+  - 53
+  - 56
+  - 51
+  - 69
+  - 157
+  winner: red
+- !ruby/object:Match
+  matchId: 4354851761
+  blueTeam:
+  - 164
+  - 112
+  - 223
+  - 64
+  - 110
+  redTeam:
+  - 412
+  - 69
+  - 18
+  - 266
+  - 56
+  winner: red
+- !ruby/object:Match
+  matchId: 4431819681
+  blueTeam:
+  - 164
+  - 61
+  - 240
+  - 350
+  - 21
+  redTeam:
+  - 235
+  - 154
+  - 110
+  - 4
+  - 56
+  winner: red
+- !ruby/object:Match
+  matchId: 4440272608
+  blueTeam:
+  - 23
+  - 222
+  - 516
+  - 56
+  - 350
+  redTeam:
+  - 2
+  - 12
+  - 51
+  - 45
+  - 10
+  winner: blue
+- !ruby/object:Match
+  matchId: 4253272603
+  blueTeam:
+  - 8
+  - 13
+  - 236
+  - 59
+  - 53
+  redTeam:
+  - 96
+  - 157
+  - 26
+  - 117
+  - 20
+  winner: red
+- !ruby/object:Match
+  matchId: 4385949803
+  blueTeam:
+  - 154
+  - 235
+  - 223
+  - 875
+  - 41
+  redTeam:
+  - 145
+  - 79
+  - 555
+  - 101
+  - 39
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429748263
+  blueTeam:
+  - 37
+  - 98
+  - 64
+  - 18
+  - 90
+  redTeam:
+  - 523
+  - 106
+  - 69
+  - 154
+  - 9
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437962073
+  blueTeam:
+  - 516
+  - 77
+  - 81
+  - 238
+  - 412
+  redTeam:
+  - 35
+  - 55
+  - 10
+  - 51
+  - 11
+  winner: red
+- !ruby/object:Match
+  matchId: 4394952141
+  blueTeam:
+  - 99
+  - 79
+  - 21
+  - 41
+  - 143
+  redTeam:
+  - 51
+  - 28
+  - 235
+  - 266
+  - 161
+  winner: blue
+- !ruby/object:Match
+  matchId: 4428473788
+  blueTeam:
+  - 14
+  - 16
+  - 246
+  - 68
+  - 64
+  redTeam:
+  - 122
+  - 37
+  - 517
+  - 142
+  - 145
+  winner: blue
+- !ruby/object:Match
+  matchId: 4416404527
+  blueTeam:
+  - 107
+  - 91
+  - 89
+  - 13
+  - 21
+  redTeam:
+  - 44
+  - 202
+  - 114
+  - 90
+  - 9
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424043020
+  blueTeam:
+  - 523
+  - 55
+  - 875
+  - 99
+  - 2
+  redTeam:
+  - 157
+  - 32
+  - 69
+  - 14
+  - 37
+  winner: blue
+- !ruby/object:Match
+  matchId: 4386087783
+  blueTeam:
+  - 59
+  - 114
+  - 161
+  - 145
+  - 412
+  redTeam:
+  - 28
+  - 117
+  - 875
+  - 55
+  - 523
+  winner: red
+- !ruby/object:Match
+  matchId: 4271414384
+  blueTeam:
+  - 412
+  - 246
+  - 77
+  - 516
+  - 119
+  redTeam:
+  - 114
+  - 350
+  - 22
+  - 36
+  - 63
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439847243
+  blueTeam:
+  - 518
+  - 16
+  - 222
+  - 59
+  - 98
+  redTeam:
+  - 67
+  - 64
+  - 266
+  - 111
+  - 61
+  winner: red
+- !ruby/object:Match
+  matchId: 4432118717
+  blueTeam:
+  - 31
+  - 104
+  - 14
+  - 143
+  - 110
+  redTeam:
+  - 13
+  - 33
+  - 21
+  - 432
+  - 10
+  winner: red
+- !ruby/object:Match
+  matchId: 4426840251
+  blueTeam:
+  - 154
+  - 429
+  - 54
+  - 134
+  - 412
+  redTeam:
+  - 102
+  - 142
+  - 44
+  - 157
+  - 202
+  winner: red
+- !ruby/object:Match
+  matchId: 4424031982
+  blueTeam:
+  - 13
+  - 11
+  - 8
+  - 60
+  - 21
+  redTeam:
+  - 516
+  - 45
+  - 22
+  - 33
+  - 7
+  winner: red
+- !ruby/object:Match
+  matchId: 4350345030
+  blueTeam:
+  - 61
+  - 235
+  - 57
+  - 64
+  - 89
+  redTeam:
+  - 117
+  - 98
+  - 161
+  - 96
+  - 141
+  winner: red
+- !ruby/object:Match
+  matchId: 4417486263
+  blueTeam:
+  - 412
+  - 154
+  - 157
+  - 81
+  - 8
+  redTeam:
+  - 420
+  - 235
+  - 421
+  - 350
+  - 238
+  winner: red
+- !ruby/object:Match
+  matchId: 4231133277
+  blueTeam:
+  - 420
+  - 117
+  - 28
+  - 157
+  - 51
+  redTeam:
+  - 134
+  - 114
+  - 22
+  - 143
+  - 121
+  winner: blue
+- !ruby/object:Match
+  matchId: 4435361960
+  blueTeam:
+  - 555
+  - 64
+  - 23
+  - 69
+  - 81
+  redTeam:
+  - 157
+  - 57
+  - 235
+  - 141
+  - 74
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424163521
+  blueTeam:
+  - 516
+  - 35
+  - 236
+  - 13
+  - 555
+  redTeam:
+  - 64
+  - 31
+  - 82
+  - 201
+  - 145
+  winner: blue
+- !ruby/object:Match
+  matchId: 4377221275
+  blueTeam:
+  - 28
+  - 412
+  - 91
+  - 98
+  - 235
+  redTeam:
+  - 498
+  - 64
+  - 157
+  - 497
+  - 31
+  winner: red
+- !ruby/object:Match
+  matchId: 4431110859
+  blueTeam:
+  - 32
+  - 350
+  - 45
+  - 81
+  - 86
+  redTeam:
+  - 5
+  - 39
+  - 117
+  - 235
+  - 38
+  winner: blue
+- !ruby/object:Match
+  matchId: 4435140008
+  blueTeam:
+  - 48
+  - 236
+  - 89
+  - 8
+  - 254
+  redTeam:
+  - 64
+  - 134
+  - 80
+  - 267
+  - 82
+  winner: red
+- !ruby/object:Match
+  matchId: 4405969854
+  blueTeam:
+  - 89
+  - 254
+  - 80
+  - 134
+  - 115
+  redTeam:
+  - 427
+  - 164
+  - 114
+  - 235
+  - 74
+  winner: blue
+- !ruby/object:Match
+  matchId: 4419583915
+  blueTeam:
+  - 201
+  - 80
+  - 67
+  - 99
+  - 41
+  redTeam:
+  - 40
+  - 45
+  - 420
+  - 119
+  - 24
+  winner: red
+- !ruby/object:Match
+  matchId: 4360065791
+  blueTeam:
+  - 235
+  - 17
+  - 516
+  - 131
+  - 22
+  redTeam:
+  - 35
+  - 267
+  - 240
+  - 517
+  - 51
+  winner: red
+- !ruby/object:Match
+  matchId: 4331931547
+  blueTeam:
+  - 19
+  - 13
+  - 122
+  - 145
+  - 267
+  redTeam:
+  - 516
+  - 121
+  - 497
+  - 236
+  - 134
+  winner: red
+- !ruby/object:Match
+  matchId: 4437740590
+  blueTeam:
+  - 82
+  - 157
+  - 517
+  - 203
+  - 497
+  redTeam:
+  - 114
+  - 51
+  - 101
+  - 106
+  - 154
+  winner: blue
+- !ruby/object:Match
+  matchId: 4396618085
+  blueTeam:
+  - 266
+  - 60
+  - 223
+  - 84
+  - 22
+  redTeam:
+  - 41
+  - 236
+  - 875
+  - 79
+  - 111
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439717093
+  blueTeam:
+  - 13
+  - 516
+  - 875
+  - 51
+  - 25
+  redTeam:
+  - 19
+  - 523
+  - 111
+  - 64
+  - 103
+  winner: red
+- !ruby/object:Match
+  matchId: 4419211416
+  blueTeam:
+  - 11
+  - 44
+  - 122
+  - 134
+  - 111
+  redTeam:
+  - 38
+  - 39
+  - 154
+  - 89
+  - 81
+  winner: blue
+- !ruby/object:Match
+  matchId: 4425441882
+  blueTeam:
+  - 202
+  - 223
+  - 122
+  - 77
+  - 518
+  redTeam:
+  - 497
+  - 134
+  - 875
+  - 235
+  - 203
+  winner: blue
+- !ruby/object:Match
+  matchId: 4404748957
+  blueTeam:
+  - 350
+  - 28
+  - 45
+  - 24
+  - 81
+  redTeam:
+  - 76
+  - 523
+  - 412
+  - 31
+  - 39
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423875865
+  blueTeam:
+  - 54
+  - 43
+  - 81
+  - 875
+  - 61
+  redTeam:
+  - 24
+  - 412
+  - 64
+  - 163
+  - 84
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439227586
+  blueTeam:
+  - 17
+  - 145
+  - 79
+  - 101
+  - 83
+  redTeam:
+  - 235
+  - 32
+  - 112
+  - 238
+  - 122
+  winner: red
+- !ruby/object:Match
+  matchId: 4357615201
+  blueTeam:
+  - 202
+  - 235
+  - 8
+  - 254
+  - 36
+  redTeam:
+  - 20
+  - 420
+  - 40
+  - 7
+  - 67
+  winner: blue
+- !ruby/object:Match
+  matchId: 4431808799
+  blueTeam:
+  - 80
+  - 235
+  - 32
+  - 99
+  - 238
+  redTeam:
+  - 267
+  - 127
+  - 21
+  - 59
+  - 55
+  winner: blue
+- !ruby/object:Match
+  matchId: 4435011751
+  blueTeam:
+  - 69
+  - 201
+  - 516
+  - 875
+  - 523
+  redTeam:
+  - 131
+  - 50
+  - 154
+  - 82
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4434130001
+  blueTeam:
+  - 25
+  - 91
+  - 60
+  - 523
+  - 56
+  redTeam:
+  - 163
+  - 432
+  - 101
+  - 64
+  - 122
+  winner: blue
+- !ruby/object:Match
+  matchId: 4382937719
+  blueTeam:
+  - 240
+  - 235
+  - 29
+  - 55
+  - 202
+  redTeam:
+  - 74
+  - 517
+  - 81
+  - 157
+  - 5
+  winner: red
+- !ruby/object:Match
+  matchId: 4418555703
+  blueTeam:
+  - 245
+  - 67
+  - 412
+  - 6
+  - 28
+  redTeam:
+  - 99
+  - 82
+  - 254
+  - 110
+  - 63
+  winner: red
+- !ruby/object:Match
+  matchId: 4430141893
+  blueTeam:
+  - 240
+  - 236
+  - 122
+  - 267
+  - 142
+  redTeam:
+  - 86
+  - 154
+  - 8
+  - 350
+  - 74
+  winner: red
+- !ruby/object:Match
+  matchId: 4365169046
+  blueTeam:
+  - 236
+  - 25
+  - 5
+  - 112
+  - 246
+  redTeam:
+  - 81
+  - 875
+  - 517
+  - 78
+  - 53
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424034256
+  blueTeam:
+  - 111
+  - 48
+  - 20
+  - 161
+  - 67
+  redTeam:
+  - 113
+  - 516
+  - 142
+  - 201
+  - 110
+  winner: red
+- !ruby/object:Match
+  matchId: 4435852284
+  blueTeam:
+  - 16
+  - 145
+  - 39
+  - 5
+  - 58
+  redTeam:
+  - 267
+  - 875
+  - 38
+  - 29
+  - 36
+  winner: red
+- !ruby/object:Match
+  matchId: 4416943684
+  blueTeam:
+  - 80
+  - 40
+  - 59
+  - 55
+  - 110
+  redTeam:
+  - 517
+  - 235
+  - 1
+  - 98
+  - 350
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429879909
+  blueTeam:
+  - 235
+  - 51
+  - 126
+  - 102
+  - 157
+  redTeam:
+  - 555
+  - 41
+  - 245
+  - 236
+  - 875
+  winner: blue
+- !ruby/object:Match
+  matchId: 4425621468
+  blueTeam:
+  - 18
+  - 12
+  - 516
+  - 69
+  - 245
+  redTeam:
+  - 51
+  - 875
+  - 161
+  - 32
+  - 131
+  winner: red
+- !ruby/object:Match
+  matchId: 4423779528
+  blueTeam:
+  - 154
+  - 98
+  - 235
+  - 63
+  - 523
+  redTeam:
+  - 131
+  - 120
+  - 412
+  - 23
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4383952104
+  blueTeam:
+  - 498
+  - 39
+  - 81
+  - 43
+  - 64
+  redTeam:
+  - 40
+  - 110
+  - 121
+  - 114
+  - 3
+  winner: red
+- !ruby/object:Match
+  matchId: 4409398814
+  blueTeam:
+  - 121
+  - 157
+  - 114
+  - 74
+  - 37
+  redTeam:
+  - 141
+  - 58
+  - 240
+  - 235
+  - 432
+  winner: red
+- !ruby/object:Match
+  matchId: 4435242638
+  blueTeam:
+  - 99
+  - 266
+  - 2
+  - 67
+  - 267
+  redTeam:
+  - 429
+  - 105
+  - 113
+  - 57
+  - 41
+  winner: red
+- !ruby/object:Match
+  matchId: 4434959722
+  blueTeam:
+  - 15
+  - 35
+  - 38
+  - 57
+  - 2
+  redTeam:
+  - 25
+  - 21
+  - 39
+  - 245
+  - 60
+  winner: blue
+- !ruby/object:Match
+  matchId: 4312263728
+  blueTeam:
+  - 50
+  - 2
+  - 111
+  - 236
+  - 518
+  redTeam:
+  - 36
+  - 412
+  - 18
+  - 122
+  - 69
+  winner: blue
+- !ruby/object:Match
+  matchId: 4436988922
+  blueTeam:
+  - 875
+  - 90
+  - 201
+  - 86
+  - 21
+  redTeam:
+  - 150
+  - 69
+  - 5
+  - 117
+  - 110
+  winner: red
+- !ruby/object:Match
+  matchId: 4424172155
+  blueTeam:
+  - 32
+  - 15
+  - 98
+  - 111
+  - 91
+  redTeam:
+  - 432
+  - 119
+  - 142
+  - 141
+  - 150
+  winner: red
+- !ruby/object:Match
+  matchId: 4438288906
+  blueTeam:
+  - 105
+  - 235
+  - 64
+  - 75
+  - 22
+  redTeam:
+  - 119
+  - 8
+  - 102
+  - 150
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4403565222
+  blueTeam:
+  - 106
+  - 121
+  - 67
+  - 25
+  - 101
+  redTeam:
+  - 69
+  - 56
+  - 22
+  - 89
+  - 98
+  winner: blue
+- !ruby/object:Match
+  matchId: 4393184422
+  blueTeam:
+  - 122
+  - 161
+  - 201
+  - 145
+  - 64
+  redTeam:
+  - 246
+  - 54
+  - 51
+  - 412
+  - 60
+  winner: red
+- !ruby/object:Match
+  matchId: 4442093806
+  blueTeam:
+  - 67
+  - 412
+  - 112
+  - 141
+  - 17
+  redTeam:
+  - 350
+  - 84
+  - 63
+  - 145
+  - 74
+  winner: blue
+- !ruby/object:Match
+  matchId: 4403968376
+  blueTeam:
+  - 202
+  - 45
+  - 114
+  - 120
+  - 235
+  redTeam:
+  - 79
+  - 432
+  - 268
+  - 222
+  - 27
+  winner: blue
+- !ruby/object:Match
+  matchId: 4438259861
+  blueTeam:
+  - 80
+  - 245
+  - 21
+  - 92
+  - 143
+  redTeam:
+  - 350
+  - 103
+  - 31
+  - 78
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4434136594
+  blueTeam:
+  - 432
+  - 142
+  - 33
+  - 516
+  - 81
+  redTeam:
+  - 517
+  - 41
+  - 145
+  - 63
+  - 32
+  winner: red
+- !ruby/object:Match
+  matchId: 4402857447
+  blueTeam:
+  - 235
+  - 2
+  - 516
+  - 8
+  - 101
+  redTeam:
+  - 350
+  - 154
+  - 86
+  - 69
+  - 236
+  winner: red
+- !ruby/object:Match
+  matchId: 4431049446
+  blueTeam:
+  - 22
+  - 432
+  - 136
+  - 57
+  - 164
+  redTeam:
+  - 523
+  - 114
+  - 44
+  - 55
+  - 60
+  winner: red
+- !ruby/object:Match
+  matchId: 4435632716
+  blueTeam:
+  - 45
+  - 518
+  - 245
+  - 134
+  - 54
+  redTeam:
+  - 420
+  - 61
+  - 102
+  - 432
+  - 51
+  winner: blue
+- !ruby/object:Match
+  matchId: 4437298238
+  blueTeam:
+  - 117
+  - 67
+  - 19
+  - 236
+  - 103
+  redTeam:
+  - 875
+  - 13
+  - 2
+  - 21
+  - 143
+  winner: red
+- !ruby/object:Match
+  matchId: 4363953545
+  blueTeam:
+  - 82
+  - 157
+  - 412
+  - 60
+  - 67
+  redTeam:
+  - 57
+  - 497
+  - 202
+  - 245
+  - 64
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440878105
+  blueTeam:
+  - 105
+  - 412
+  - 11
+  - 150
+  - 81
+  redTeam:
+  - 86
+  - 145
+  - 99
+  - 4
+  - 121
+  winner: red
+- !ruby/object:Match
+  matchId: 4379566669
+  blueTeam:
+  - 498
+  - 117
+  - 121
+  - 13
+  - 150
+  redTeam:
+  - 20
+  - 55
+  - 43
+  - 82
+  - 523
+  winner: red
+- !ruby/object:Match
+  matchId: 4383137352
+  blueTeam:
+  - 222
+  - 164
+  - 91
+  - 875
+  - 143
+  redTeam:
+  - 236
+  - 86
+  - 59
+  - 69
+  - 43
+  winner: red
+- !ruby/object:Match
+  matchId: 4383070093
+  blueTeam:
+  - 91
+  - 28
+  - 98
+  - 518
+  - 161
+  redTeam:
+  - 875
+  - 432
+  - 20
+  - 131
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4289349077
+  blueTeam:
+  - 13
+  - 41
+  - 235
+  - 267
+  - 141
+  redTeam:
+  - 203
+  - 555
+  - 7
+  - 6
+  - 134
+  winner: red
+- !ruby/object:Match
+  matchId: 4371486247
+  blueTeam:
+  - 555
+  - 115
+  - 157
+  - 82
+  - 60
+  redTeam:
+  - 222
+  - 24
+  - 25
+  - 68
+  - 35
+  winner: red
+- !ruby/object:Match
+  matchId: 4412119348
+  blueTeam:
+  - 111
+  - 238
+  - 20
+  - 83
+  - 523
+  redTeam:
+  - 145
+  - 420
+  - 35
+  - 517
+  - 350
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423540967
+  blueTeam:
+  - 55
+  - 23
+  - 11
+  - 25
+  - 81
+  redTeam:
+  - 267
+  - 875
+  - 90
+  - 523
+  - 113
+  winner: red
+- !ruby/object:Match
+  matchId: 4410322862
+  blueTeam:
+  - 131
+  - 22
+  - 56
+  - 555
+  - 98
+  redTeam:
+  - 64
+  - 202
+  - 45
+  - 59
+  - 41
+  winner: red
+- !ruby/object:Match
+  matchId: 4392235676
+  blueTeam:
+  - 17
+  - 157
+  - 24
+  - 202
+  - 142
+  redTeam:
+  - 432
+  - 112
+  - 2
+  - 875
+  - 22
+  winner: red
+- !ruby/object:Match
+  matchId: 4416888155
+  blueTeam:
+  - 498
+  - 82
+  - 61
+  - 497
+  - 2
+  redTeam:
+  - 134
+  - 266
+  - 21
+  - 555
+  - 64
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440121013
+  blueTeam:
+  - 38
+  - 2
+  - 25
+  - 236
+  - 104
+  redTeam:
+  - 64
+  - 21
+  - 24
+  - 235
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4439385867
+  blueTeam:
+  - 107
+  - 22
+  - 157
+  - 61
+  - 267
+  redTeam:
+  - 51
+  - 45
+  - 83
+  - 875
+  - 28
+  winner: red
+- !ruby/object:Match
+  matchId: 4386397864
+  blueTeam:
+  - 120
+  - 236
+  - 157
+  - 82
+  - 267
+  redTeam:
+  - 67
+  - 246
+  - 516
+  - 141
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4371762069
+  blueTeam:
+  - 51
+  - 412
+  - 99
+  - 122
+  - 121
+  redTeam:
+  - 110
+  - 142
+  - 113
+  - 240
+  - 432
+  winner: red
+- !ruby/object:Match
+  matchId: 4437378167
+  blueTeam:
+  - 58
+  - 99
+  - 81
+  - 63
+  - 59
+  redTeam:
+  - 28
+  - 523
+  - 267
+  - 142
+  - 86
+  winner: red
+- !ruby/object:Match
+  matchId: 4399201671
+  blueTeam:
+  - 117
+  - 350
+  - 44
+  - 29
+  - 122
+  redTeam:
+  - 875
+  - 245
+  - 412
+  - 21
+  - 31
+  winner: blue
+- !ruby/object:Match
+  matchId: 4418240190
+  blueTeam:
+  - 80
+  - 81
+  - 58
+  - 60
+  - 99
+  redTeam:
+  - 36
+  - 517
+  - 48
+  - 43
+  - 110
+  winner: red
+- !ruby/object:Match
+  matchId: 4413269567
+  blueTeam:
+  - 14
+  - 202
+  - 56
+  - 223
+  - 63
+  redTeam:
+  - 142
+  - 122
+  - 2
+  - 18
+  - 267
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424534705
+  blueTeam:
+  - 62
+  - 350
+  - 131
+  - 245
+  - 104
+  redTeam:
+  - 157
+  - 4
+  - 161
+  - 119
+  - 86
+  winner: blue
+- !ruby/object:Match
+  matchId: 4398660254
+  blueTeam:
+  - 67
+  - 117
+  - 68
+  - 98
+  - 2
+  redTeam:
+  - 82
+  - 222
+  - 154
+  - 25
+  - 43
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429264185
+  blueTeam:
+  - 21
+  - 34
+  - 57
+  - 31
+  - 86
+  redTeam:
+  - 122
+  - 141
+  - 43
+  - 222
+  - 201
+  winner: red
+- !ruby/object:Match
+  matchId: 4372600661
+  blueTeam:
+  - 69
+  - 22
+  - 516
+  - 432
+  - 2
+  redTeam:
+  - 122
+  - 235
+  - 498
+  - 101
+  - 154
+  winner: blue
+- !ruby/object:Match
+  matchId: 4411094326
+  blueTeam:
+  - 82
+  - 201
+  - 7
+  - 202
+  - 104
+  redTeam:
+  - 222
+  - 267
+  - 103
+  - 5
+  - 266
+  winner: red
+- !ruby/object:Match
+  matchId: 4432000072
+  blueTeam:
+  - 350
+  - 62
+  - 516
+  - 142
+  - 30
+  redTeam:
+  - 39
+  - 69
+  - 81
+  - 19
+  - 412
+  winner: red
+- !ruby/object:Match
+  matchId: 4432122610
+  blueTeam:
+  - 246
+  - 114
+  - 267
+  - 110
+  - 145
+  redTeam:
+  - 523
+  - 112
+  - 76
+  - 78
+  - 25
+  winner: blue
+- !ruby/object:Match
+  matchId: 4398629414
+  blueTeam:
+  - 111
+  - 99
+  - 164
+  - 523
+  - 421
+  redTeam:
+  - 117
+  - 29
+  - 86
+  - 115
+  - 64
+  winner: red
+- !ruby/object:Match
+  matchId: 4412367700
+  blueTeam:
+  - 3
+  - 23
+  - 222
+  - 76
+  - 235
+  redTeam:
+  - 432
+  - 421
+  - 55
+  - 202
+  - 122
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429437556
+  blueTeam:
+  - 238
+  - 89
+  - 59
+  - 11
+  - 131
+  redTeam:
+  - 235
+  - 420
+  - 164
+  - 127
+  - 86
+  winner: red
+- !ruby/object:Match
+  matchId: 4388877914
+  blueTeam:
+  - 122
+  - 2
+  - 131
+  - 22
+  - 412
+  redTeam:
+  - 246
+  - 74
+  - 267
+  - 115
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4419890617
+  blueTeam:
+  - 202
+  - 26
+  - 518
+  - 266
+  - 60
+  redTeam:
+  - 91
+  - 64
+  - 23
+  - 16
+  - 101
+  winner: red
+- !ruby/object:Match
+  matchId: 4400157033
+  blueTeam:
+  - 16
+  - 141
+  - 43
+  - 202
+  - 412
+  redTeam:
+  - 350
+  - 86
+  - 4
+  - 164
+  - 80
+  winner: blue
+- !ruby/object:Match
+  matchId: 4432431624
+  blueTeam:
+  - 21
+  - 23
+  - 254
+  - 111
+  - 245
+  redTeam:
+  - 81
+  - 25
+  - 51
+  - 32
+  - 86
+  winner: blue
+- !ruby/object:Match
+  matchId: 4348164210
+  blueTeam:
+  - 64
+  - 50
+  - 14
+  - 101
+  - 235
+  redTeam:
+  - 111
+  - 60
+  - 236
+  - 112
+  - 246
+  winner: blue
+- !ruby/object:Match
+  matchId: 4369985126
+  blueTeam:
+  - 432
+  - 16
+  - 240
+  - 64
+  - 81
+  redTeam:
+  - 236
+  - 555
+  - 142
+  - 24
+  - 59
+  winner: red
+- !ruby/object:Match
+  matchId: 4430513318
+  blueTeam:
+  - 58
+  - 163
+  - 236
+  - 89
+  - 112
+  redTeam:
+  - 10
+  - 421
+  - 412
+  - 238
+  - 51
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440598786
+  blueTeam:
+  - 79
+  - 86
+  - 516
+  - 45
+  - 51
+  redTeam:
+  - 236
+  - 90
+  - 43
+  - 64
+  - 240
+  winner: blue
+- !ruby/object:Match
+  matchId: 4370028487
+  blueTeam:
+  - 64
+  - 21
+  - 99
+  - 25
+  - 516
+  redTeam:
+  - 103
+  - 24
+  - 51
+  - 111
+  - 131
+  winner: blue
+- !ruby/object:Match
+  matchId: 4441927239
+  blueTeam:
+  - 24
+  - 154
+  - 110
+  - 429
+  - 412
+  redTeam:
+  - 114
+  - 117
+  - 67
+  - 102
+  - 101
+  winner: blue
+- !ruby/object:Match
+  matchId: 4300509535
+  blueTeam:
+  - 145
+  - 89
+  - 84
+  - 55
+  - 64
+  redTeam:
+  - 41
+  - 120
+  - 498
+  - 497
+  - 13
+  winner: blue
+- !ruby/object:Match
+  matchId: 4364648798
+  blueTeam:
+  - 145
+  - 11
+  - 69
+  - 246
+  - 25
+  redTeam:
+  - 27
+  - 68
+  - 267
+  - 119
+  - 64
+  winner: red
+- !ruby/object:Match
+  matchId: 4415534443
+  blueTeam:
+  - 350
+  - 222
+  - 134
+  - 64
+  - 57
+  redTeam:
+  - 44
+  - 117
+  - 11
+  - 267
+  - 114
+  winner: red
+- !ruby/object:Match
+  matchId: 4432510744
+  blueTeam:
+  - 238
+  - 41
+  - 119
+  - 69
+  - 101
+  redTeam:
+  - 39
+  - 60
+  - 157
+  - 202
+  - 350
+  winner: blue
+- !ruby/object:Match
+  matchId: 4404357385
+  blueTeam:
+  - 64
+  - 161
+  - 236
+  - 201
+  - 420
+  redTeam:
+  - 80
+  - 111
+  - 21
+  - 136
+  - 41
+  winner: red
+- !ruby/object:Match
+  matchId: 4419369884
+  blueTeam:
+  - 63
+  - 19
+  - 90
+  - 81
+  - 114
+  redTeam:
+  - 141
+  - 267
+  - 105
+  - 22
+  - 32
+  winner: red
+- !ruby/object:Match
+  matchId: 4423430381
+  blueTeam:
+  - 82
+  - 25
+  - 516
+  - 245
+  - 21
+  redTeam:
+  - 157
+  - 36
+  - 143
+  - 51
+  - 64
+  winner: blue
+- !ruby/object:Match
+  matchId: 4389048929
+  blueTeam:
+  - 56
+  - 54
+  - 21
+  - 154
+  - 40
+  redTeam:
+  - 39
+  - 245
+  - 222
+  - 86
+  - 63
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439058689
+  blueTeam:
+  - 45
+  - 1
+  - 122
+  - 523
+  - 44
+  redTeam:
+  - 78
+  - 12
+  - 41
+  - 21
+  - 8
+  winner: blue
+- !ruby/object:Match
+  matchId: 4413475153
+  blueTeam:
+  - 69
+  - 412
+  - 145
+  - 164
+  - 254
+  redTeam:
+  - 134
+  - 28
+  - 432
+  - 238
+  - 516
+  winner: red
+- !ruby/object:Match
+  matchId: 4284039457
+  blueTeam:
+  - 44
+  - 25
+  - 24
+  - 1
+  - 51
+  redTeam:
+  - 11
+  - 57
+  - 38
+  - 498
+  - 16
+  winner: blue
+- !ruby/object:Match
+  matchId: 4397832253
+  blueTeam:
+  - 20
+  - 202
+  - 238
+  - 82
+  - 412
+  redTeam:
+  - 3
+  - 236
+  - 39
+  - 131
+  - 68
+  winner: blue
+- !ruby/object:Match
+  matchId: 4318269055
+  blueTeam:
+  - 89
+  - 64
+  - 235
+  - 69
+  - 131
+  redTeam:
+  - 107
+  - 157
+  - 40
+  - 523
+  - 29
+  winner: blue
+- !ruby/object:Match
+  matchId: 4396717654
+  blueTeam:
+  - 82
+  - 42
+  - 120
+  - 223
+  - 22
+  redTeam:
+  - 203
+  - 67
+  - 117
+  - 134
+  - 240
+  winner: red
+- !ruby/object:Match
+  matchId: 4440386297
+  blueTeam:
+  - 266
+  - 202
+  - 497
+  - 154
+  - 13
+  redTeam:
+  - 24
+  - 112
+  - 236
+  - 267
+  - 91
+  winner: red
+- !ruby/object:Match
+  matchId: 4423027542
+  blueTeam:
+  - 83
+  - 64
+  - 222
+  - 55
+  - 26
+  redTeam:
+  - 141
+  - 432
+  - 81
+  - 36
+  - 38
+  winner: red
+- !ruby/object:Match
+  matchId: 4372498529
+  blueTeam:
+  - 31
+  - 246
+  - 157
+  - 21
+  - 235
+  redTeam:
+  - 111
+  - 51
+  - 875
+  - 121
+  - 101
+  winner: red
+- !ruby/object:Match
+  matchId: 4385439964
+  blueTeam:
+  - 145
+  - 114
+  - 246
+  - 245
+  - 79
+  redTeam:
+  - 2
+  - 67
+  - 98
+  - 412
+  - 127
+  winner: red
+- !ruby/object:Match
+  matchId: 4404992577
+  blueTeam:
+  - 89
+  - 60
+  - 429
+  - 8
+  - 246
+  redTeam:
+  - 67
+  - 875
+  - 113
+  - 134
+  - 412
+  winner: blue
+- !ruby/object:Match
+  matchId: 4384035538
+  blueTeam:
+  - 120
+  - 555
+  - 8
+  - 236
+  - 68
+  redTeam:
+  - 17
+  - 267
+  - 202
+  - 80
+  - 56
+  winner: blue
+- !ruby/object:Match
+  matchId: 4430288730
+  blueTeam:
+  - 517
+  - 516
+  - 2
+  - 99
+  - 235
+  redTeam:
+  - 101
+  - 523
+  - 127
+  - 60
+  - 41
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424829165
+  blueTeam:
+  - 246
+  - 83
+  - 412
+  - 112
+  - 202
+  redTeam:
+  - 39
+  - 98
+  - 143
+  - 51
+  - 131
+  winner: blue
+- !ruby/object:Match
+  matchId: 4433518739
+  blueTeam:
+  - 79
+  - 119
+  - 80
+  - 89
+  - 121
+  redTeam:
+  - 875
+  - 254
+  - 236
+  - 85
+  - 412
+  winner: blue
+- !ruby/object:Match
+  matchId: 4356101061
+  blueTeam:
+  - 517
+  - 134
+  - 32
+  - 235
+  - 89
+  redTeam:
+  - 98
+  - 42
+  - 43
+  - 60
+  - 18
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440731654
+  blueTeam:
+  - 58
+  - 154
+  - 235
+  - 112
+  - 238
+  redTeam:
+  - 57
+  - 61
+  - 81
+  - 40
+  - 516
+  winner: red
+- !ruby/object:Match
+  matchId: 4338965285
+  blueTeam:
+  - 26
+  - 111
+  - 45
+  - 523
+  - 5
+  redTeam:
+  - 99
+  - 134
+  - 79
+  - 62
+  - 8
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423843459
+  blueTeam:
+  - 32
+  - 350
+  - 112
+  - 51
+  - 91
+  redTeam:
+  - 23
+  - 21
+  - 48
+  - 412
+  - 517
+  winner: red
+- !ruby/object:Match
+  matchId: 4434542381
+  blueTeam:
+  - 21
+  - 412
+  - 134
+  - 23
+  - 98
+  redTeam:
+  - 516
+  - 254
+  - 131
+  - 44
+  - 15
+  winner: red
+- !ruby/object:Match
+  matchId: 4441950442
+  blueTeam:
+  - 60
+  - 19
+  - 115
+  - 222
+  - 117
+  redTeam:
+  - 8
+  - 516
+  - 412
+  - 110
+  - 6
+  winner: red
+- !ruby/object:Match
+  matchId: 4379871287
+  blueTeam:
+  - 74
+  - 875
+  - 121
+  - 157
+  - 555
+  redTeam:
+  - 99
+  - 429
+  - 104
+  - 235
+  - 92
+  winner: red
+- !ruby/object:Match
+  matchId: 4392052470
+  blueTeam:
+  - 90
+  - 64
+  - 110
+  - 111
+  - 6
+  redTeam:
+  - 154
+  - 201
+  - 51
+  - 8
+  - 157
+  winner: red
+- !ruby/object:Match
+  matchId: 4432035264
+  blueTeam:
+  - 131
+  - 517
+  - 51
+  - 235
+  - 150
+  redTeam:
+  - 101
+  - 122
+  - 21
+  - 11
+  - 89
+  winner: red
+- !ruby/object:Match
+  matchId: 4407372778
+  blueTeam:
+  - 236
+  - 267
+  - 121
+  - 112
+  - 16
+  redTeam:
+  - 25
+  - 119
+  - 516
+  - 55
+  - 5
+  winner: red
+- !ruby/object:Match
+  matchId: 4381015404
+  blueTeam:
+  - 40
+  - 112
+  - 9
+  - 235
+  - 82
+  redTeam:
+  - 8
+  - 21
+  - 99
+  - 875
+  - 121
+  winner: red
+- !ruby/object:Match
+  matchId: 4425555150
+  blueTeam:
+  - 157
+  - 20
+  - 63
+  - 38
+  - 81
+  redTeam:
+  - 39
+  - 64
+  - 350
+  - 23
+  - 7
+  winner: red
+- !ruby/object:Match
+  matchId: 4384601743
+  blueTeam:
+  - 27
+  - 39
+  - 63
+  - 67
+  - 421
+  redTeam:
+  - 19
+  - 131
+  - 266
+  - 50
+  - 222
+  winner: blue
+- !ruby/object:Match
+  matchId: 4436443764
+  blueTeam:
+  - 68
+  - 432
+  - 429
+  - 64
+  - 142
+  redTeam:
+  - 55
+  - 23
+  - 89
+  - 60
+  - 235
+  winner: blue
+- !ruby/object:Match
+  matchId: 4400987693
+  blueTeam:
+  - 58
+  - 26
+  - 119
+  - 30
+  - 61
+  redTeam:
+  - 90
+  - 254
+  - 17
+  - 81
+  - 44
+  winner: red
+- !ruby/object:Match
+  matchId: 4413453457
+  blueTeam:
+  - 161
+  - 81
+  - 61
+  - 86
+  - 107
+  redTeam:
+  - 202
+  - 64
+  - 24
+  - 115
+  - 235
+  winner: blue
+- !ruby/object:Match
+  matchId: 4406605217
+  blueTeam:
+  - 432
+  - 246
+  - 45
+  - 516
+  - 523
+  redTeam:
+  - 517
+  - 350
+  - 245
+  - 41
+  - 39
+  winner: blue
+- !ruby/object:Match
+  matchId: 4357639043
+  blueTeam:
+  - 127
+  - 51
+  - 98
+  - 56
+  - 516
+  redTeam:
+  - 83
+  - 99
+  - 412
+  - 523
+  - 141
+  winner: red
+- !ruby/object:Match
+  matchId: 4211747519
+  blueTeam:
+  - 58
+  - 267
+  - 51
+  - 157
+  - 76
+  redTeam:
+  - 201
+  - 54
+  - 7
+  - 236
+  - 421
+  winner: red
+- !ruby/object:Match
+  matchId: 4437529995
+  blueTeam:
+  - 235
+  - 64
+  - 68
+  - 4
+  - 8
+  redTeam:
+  - 875
+  - 82
+  - 26
+  - 59
+  - 222
+  winner: red
+- !ruby/object:Match
+  matchId: 4409197492
+  blueTeam:
+  - 21
+  - 89
+  - 2
+  - 99
+  - 77
+  redTeam:
+  - 412
+  - 81
+  - 24
+  - 90
+  - 17
+  winner: red
+- !ruby/object:Match
+  matchId: 4428069639
+  blueTeam:
+  - 81
+  - 555
+  - 60
+  - 127
+  - 86
+  redTeam:
+  - 245
+  - 20
+  - 39
+  - 523
+  - 350
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440505145
+  blueTeam:
+  - 41
+  - 161
+  - 54
+  - 51
+  - 56
+  redTeam:
+  - 103
+  - 30
+  - 40
+  - 202
+  - 157
+  winner: blue
+- !ruby/object:Match
+  matchId: 4385701812
+  blueTeam:
+  - 91
+  - 25
+  - 120
+  - 81
+  - 67
+  redTeam:
+  - 141
+  - 40
+  - 10
+  - 103
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4430492863
+  blueTeam:
+  - 412
+  - 67
+  - 64
+  - 10
+  - 23
+  redTeam:
+  - 102
+  - 111
+  - 5
+  - 235
+  - 99
+  winner: blue
+- !ruby/object:Match
+  matchId: 4383405880
+  blueTeam:
+  - 141
+  - 91
+  - 875
+  - 55
+  - 101
+  redTeam:
+  - 29
+  - 164
+  - 412
+  - 498
+  - 517
+  winner: red
+- !ruby/object:Match
+  matchId: 4429385478
+  blueTeam:
+  - 10
+  - 412
+  - 131
+  - 51
+  - 64
+  redTeam:
+  - 53
+  - 222
+  - 60
+  - 516
+  - 134
+  winner: red
+- !ruby/object:Match
+  matchId: 4399628992
+  blueTeam:
+  - 523
+  - 201
+  - 245
+  - 16
+  - 61
+  redTeam:
+  - 35
+  - 517
+  - 40
+  - 22
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4434826090
+  blueTeam:
+  - 245
+  - 43
+  - 98
+  - 51
+  - 99
+  redTeam:
+  - 16
+  - 235
+  - 40
+  - 2
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4348090557
+  blueTeam:
+  - 41
+  - 202
+  - 48
+  - 131
+  - 111
+  redTeam:
+  - 235
+  - 99
+  - 145
+  - 19
+  - 64
+  winner: red
+- !ruby/object:Match
+  matchId: 4441367281
+  blueTeam:
+  - 53
+  - 51
+  - 134
+  - 80
+  - 517
+  redTeam:
+  - 202
+  - 267
+  - 2
+  - 1
+  - 13
+  winner: red
+- !ruby/object:Match
+  matchId: 4419060485
+  blueTeam:
+  - 26
+  - 9
+  - 8
+  - 157
+  - 875
+  redTeam:
+  - 31
+  - 246
+  - 350
+  - 112
+  - 67
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424086175
+  blueTeam:
+  - 142
+  - 523
+  - 141
+  - 201
+  - 266
+  redTeam:
+  - 89
+  - 21
+  - 91
+  - 516
+  - 69
+  winner: blue
+- !ruby/object:Match
+  matchId: 4412761712
+  blueTeam:
+  - 107
+  - 555
+  - 16
+  - 254
+  - 103
+  redTeam:
+  - 266
+  - 53
+  - 45
+  - 141
+  - 498
+  winner: red
+- !ruby/object:Match
+  matchId: 4410811639
+  blueTeam:
+  - 25
+  - 26
+  - 523
+  - 98
+  - 107
+  redTeam:
+  - 23
+  - 103
+  - 21
+  - 432
+  - 64
+  winner: red
+- !ruby/object:Match
+  matchId: 4436675695
+  blueTeam:
+  - 18
+  - 37
+  - 81
+  - 58
+  - 60
+  redTeam:
+  - 498
+  - 134
+  - 875
+  - 350
+  - 32
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423551267
+  blueTeam:
+  - 38
+  - 30
+  - 235
+  - 51
+  - 202
+  redTeam:
+  - 81
+  - 516
+  - 3
+  - 201
+  - 33
+  winner: blue
+- !ruby/object:Match
+  matchId: 4368285802
+  blueTeam:
+  - 8
+  - 21
+  - 154
+  - 6
+  - 90
+  redTeam:
+  - 412
+  - 121
+  - 51
+  - 875
+  - 268
+  winner: red
+- !ruby/object:Match
+  matchId: 4262138214
+  blueTeam:
+  - 75
+  - 497
+  - 498
+  - 101
+  - 35
+  redTeam:
+  - 78
+  - 157
+  - 77
+  - 86
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4430327218
+  blueTeam:
+  - 89
+  - 7
+  - 110
+  - 154
+  - 78
+  redTeam:
+  - 516
+  - 120
+  - 236
+  - 68
+  - 16
+  winner: blue
+- !ruby/object:Match
+  matchId: 4426951534
+  blueTeam:
+  - 39
+  - 268
+  - 81
+  - 89
+  - 80
+  redTeam:
+  - 157
+  - 154
+  - 498
+  - 82
+  - 267
+  winner: red
+- !ruby/object:Match
+  matchId: 4396985971
+  blueTeam:
+  - 40
+  - 141
+  - 223
+  - 235
+  - 131
+  redTeam:
+  - 238
+  - 60
+  - 412
+  - 202
+  - 82
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439742685
+  blueTeam:
+  - 43
+  - 60
+  - 202
+  - 112
+  - 41
+  redTeam:
+  - 555
+  - 21
+  - 6
+  - 121
+  - 163
+  winner: red
+- !ruby/object:Match
+  matchId: 4430783027
+  blueTeam:
+  - 157
+  - 68
+  - 86
+  - 143
+  - 11
+  redTeam:
+  - 36
+  - 223
+  - 235
+  - 240
+  - 122
+  winner: blue
+- !ruby/object:Match
+  matchId: 4396383646
+  blueTeam:
+  - 121
+  - 10
+  - 91
+  - 412
+  - 235
+  redTeam:
+  - 24
+  - 143
+  - 33
+  - 110
+  - 41
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440415533
+  blueTeam:
+  - 12
+  - 238
+  - 51
+  - 82
+  - 72
+  redTeam:
+  - 122
+  - 145
+  - 143
+  - 48
+  - 99
+  winner: red
+- !ruby/object:Match
+  matchId: 4405188173
+  blueTeam:
+  - 117
+  - 79
+  - 112
+  - 67
+  - 875
+  redTeam:
+  - 16
+  - 86
+  - 120
+  - 69
+  - 110
+  winner: red
+- !ruby/object:Match
+  matchId: 4435300079
+  blueTeam:
+  - 25
+  - 145
+  - 163
+  - 86
+  - 32
+  redTeam:
+  - 154
+  - 246
+  - 111
+  - 21
+  - 10
+  winner: red
+- !ruby/object:Match
+  matchId: 4349071165
+  blueTeam:
+  - 24
+  - 16
+  - 64
+  - 110
+  - 84
+  redTeam:
+  - 122
+  - 143
+  - 131
+  - 421
+  - 236
+  winner: red
+- !ruby/object:Match
+  matchId: 4439560453
+  blueTeam:
+  - 518
+  - 10
+  - 102
+  - 44
+  - 51
+  redTeam:
+  - 131
+  - 98
+  - 25
+  - 21
+  - 99
+  winner: red
+- !ruby/object:Match
+  matchId: 4438474736
+  blueTeam:
+  - 163
+  - 80
+  - 555
+  - 266
+  - 59
+  redTeam:
+  - 20
+  - 36
+  - 38
+  - 145
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4435569867
+  blueTeam:
+  - 350
+  - 154
+  - 81
+  - 55
+  - 157
+  redTeam:
+  - 420
+  - 104
+  - 13
+  - 67
+  - 117
+  winner: red
+- !ruby/object:Match
+  matchId: 4399115639
+  blueTeam:
+  - 82
+  - 202
+  - 50
+  - 45
+  - 32
+  redTeam:
+  - 238
+  - 48
+  - 111
+  - 518
+  - 13
+  winner: red
+- !ruby/object:Match
+  matchId: 4412950126
+  blueTeam:
+  - 92
+  - 64
+  - 523
+  - 267
+  - 90
+  redTeam:
+  - 555
+  - 80
+  - 31
+  - 42
+  - 18
+  winner: blue
+- !ruby/object:Match
+  matchId: 4360527675
+  blueTeam:
+  - 120
+  - 90
+  - 235
+  - 80
+  - 222
+  redTeam:
+  - 202
+  - 92
+  - 113
+  - 517
+  - 201
+  winner: blue
+- !ruby/object:Match
+  matchId: 4442170159
+  blueTeam:
+  - 223
+  - 523
+  - 3
+  - 80
+  - 90
+  redTeam:
+  - 120
+  - 76
+  - 142
+  - 81
+  - 497
+  winner: blue
+- !ruby/object:Match
+  matchId: 4349097322
+  blueTeam:
+  - 82
+  - 50
+  - 84
+  - 106
+  - 92
+  redTeam:
+  - 79
+  - 13
+  - 157
+  - 24
+  - 245
+  winner: blue
+- !ruby/object:Match
+  matchId: 4441985357
+  blueTeam:
+  - 145
+  - 164
+  - 11
+  - 134
+  - 235
+  redTeam:
+  - 90
+  - 50
+  - 875
+  - 22
+  - 33
+  winner: red
+- !ruby/object:Match
+  matchId: 4419339282
+  blueTeam:
+  - 22
+  - 82
+  - 76
+  - 555
+  - 50
+  redTeam:
+  - 246
+  - 516
+  - 235
+  - 53
+  - 30
+  winner: red
+- !ruby/object:Match
+  matchId: 4358778026
+  blueTeam:
+  - 11
+  - 84
+  - 117
+  - 81
+  - 412
+  redTeam:
+  - 517
+  - 104
+  - 29
+  - 143
+  - 202
+  winner: red
+- !ruby/object:Match
+  matchId: 4402350549
+  blueTeam:
+  - 157
+  - 246
+  - 235
+  - 13
+  - 54
+  redTeam:
+  - 29
+  - 16
+  - 517
+  - 555
+  - 236
+  winner: blue
+- !ruby/object:Match
+  matchId: 4413918893
+  blueTeam:
+  - 875
+  - 72
+  - 202
+  - 268
+  - 267
+  redTeam:
+  - 350
+  - 101
+  - 114
+  - 154
+  - 110
+  winner: blue
+- !ruby/object:Match
+  matchId: 4381531502
+  blueTeam:
+  - 875
+  - 427
+  - 105
+  - 63
+  - 81
+  redTeam:
+  - 157
+  - 58
+  - 203
+  - 131
+  - 14
+  winner: blue
+- !ruby/object:Match
+  matchId: 4383092827
+  blueTeam:
+  - 50
+  - 126
+  - 427
+  - 67
+  - 111
+  redTeam:
+  - 412
+  - 875
+  - 38
+  - 21
+  - 60
+  winner: red
+- !ruby/object:Match
+  matchId: 4393229941
+  blueTeam:
+  - 111
+  - 236
+  - 201
+  - 32
+  - 85
+  redTeam:
+  - 246
+  - 57
+  - 107
+  - 67
+  - 117
+  winner: red
+- !ruby/object:Match
+  matchId: 4395800033
+  blueTeam:
+  - 498
+  - 58
+  - 142
+  - 432
+  - 35
+  redTeam:
+  - 523
+  - 131
+  - 57
+  - 254
+  - 412
+  winner: blue
+- !ruby/object:Match
+  matchId: 4406620331
+  blueTeam:
+  - 143
+  - 89
+  - 517
+  - 236
+  - 86
+  redTeam:
+  - 235
+  - 432
+  - 64
+  - 157
+  - 54
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440005178
+  blueTeam:
+  - 24
+  - 131
+  - 145
+  - 64
+  - 412
+  redTeam:
+  - 16
+  - 134
+  - 86
+  - 81
+  - 59
+  winner: red
+- !ruby/object:Match
+  matchId: 4435002120
+  blueTeam:
+  - 45
+  - 145
+  - 58
+  - 24
+  - 99
+  redTeam:
+  - 4
+  - 102
+  - 48
+  - 106
+  - 235
+  winner: blue
+- !ruby/object:Match
+  matchId: 4393269766
+  blueTeam:
+  - 111
+  - 8
+  - 236
+  - 28
+  - 86
+  redTeam:
+  - 235
+  - 99
+  - 79
+  - 143
+  - 164
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429880609
+  blueTeam:
+  - 23
+  - 35
+  - 61
+  - 154
+  - 18
+  redTeam:
+  - 51
+  - 86
+  - 38
+  - 102
+  - 111
+  winner: red
+- !ruby/object:Match
+  matchId: 4421985171
+  blueTeam:
+  - 122
+  - 101
+  - 517
+  - 81
+  - 350
+  redTeam:
+  - 103
+  - 51
+  - 25
+  - 64
+  - 266
+  winner: red
+- !ruby/object:Match
+  matchId: 4430603436
+  blueTeam:
+  - 22
+  - 103
+  - 203
+  - 41
+  - 51
+  redTeam:
+  - 267
+  - 69
+  - 236
+  - 875
+  - 61
+  winner: blue
+- !ruby/object:Match
+  matchId: 4392091000
+  blueTeam:
+  - 16
+  - 110
+  - 103
+  - 41
+  - 24
+  redTeam:
+  - 235
+  - 875
+  - 63
+  - 114
+  - 246
+  winner: red
+- !ruby/object:Match
+  matchId: 4374568663
+  blueTeam:
+  - 122
+  - 245
+  - 99
+  - 235
+  - 25
+  redTeam:
+  - 134
+  - 117
+  - 131
+  - 22
+  - 41
+  winner: red
+- !ruby/object:Match
+  matchId: 4403678435
+  blueTeam:
+  - 875
+  - 112
+  - 92
+  - 202
+  - 43
+  redTeam:
+  - 30
+  - 240
+  - 16
+  - 412
+  - 133
+  winner: blue
+- !ruby/object:Match
+  matchId: 4426529555
+  blueTeam:
+  - 236
+  - 201
+  - 114
+  - 2
+  - 113
+  redTeam:
+  - 516
+  - 131
+  - 64
+  - 145
+  - 57
+  winner: red
+- !ruby/object:Match
+  matchId: 4434474726
+  blueTeam:
+  - 122
+  - 119
+  - 113
+  - 53
+  - 131
+  redTeam:
+  - 40
+  - 107
+  - 7
+  - 22
+  - 92
+  winner: red
+- !ruby/object:Match
+  matchId: 4383961041
+  blueTeam:
+  - 238
+  - 134
+  - 50
+  - 82
+  - 120
+  redTeam:
+  - 85
+  - 21
+  - 432
+  - 516
+  - 163
+  winner: blue
+- !ruby/object:Match
+  matchId: 4384569843
+  blueTeam:
+  - 63
+  - 2
+  - 516
+  - 21
+  - 238
+  redTeam:
+  - 523
+  - 427
+  - 82
+  - 412
+  - 236
+  winner: red
+- !ruby/object:Match
+  matchId: 4402941455
+  blueTeam:
+  - 150
+  - 20
+  - 105
+  - 267
+  - 101
+  redTeam:
+  - 131
+  - 104
+  - 875
+  - 235
+  - 12
+  winner: red
+- !ruby/object:Match
+  matchId: 4398624627
+  blueTeam:
+  - 267
+  - 54
+  - 21
+  - 421
+  - 105
+  redTeam:
+  - 86
+  - 202
+  - 50
+  - 107
+  - 25
+  winner: red
+- !ruby/object:Match
+  matchId: 4430704408
+  blueTeam:
+  - 16
+  - 57
+  - 245
+  - 121
+  - 13
+  redTeam:
+  - 8
+  - 154
+  - 80
+  - 89
+  - 110
+  winner: blue
+- !ruby/object:Match
+  matchId: 4430920910
+  blueTeam:
+  - 35
+  - 517
+  - 17
+  - 235
+  - 223
+  redTeam:
+  - 516
+  - 30
+  - 26
+  - 222
+  - 555
+  winner: blue
+- !ruby/object:Match
+  matchId: 4384324666
+  blueTeam:
+  - 8
+  - 113
+  - 523
+  - 12
+  - 82
+  redTeam:
+  - 134
+  - 67
+  - 201
+  - 421
+  - 875
+  winner: blue
+- !ruby/object:Match
+  matchId: 4433471269
+  blueTeam:
+  - 99
+  - 412
+  - 427
+  - 236
+  - 555
+  redTeam:
+  - 421
+  - 516
+  - 245
+  - 53
+  - 119
+  winner: blue
+- !ruby/object:Match
+  matchId: 4416603730
+  blueTeam:
+  - 53
+  - 21
+  - 131
+  - 516
+  - 59
+  redTeam:
+  - 518
+  - 498
+  - 64
+  - 114
+  - 134
+  winner: red
+- !ruby/object:Match
+  matchId: 4441738533
+  blueTeam:
+  - 18
+  - 44
+  - 25
+  - 202
+  - 98
+  redTeam:
+  - 154
+  - 41
+  - 86
+  - 16
+  - 11
+  winner: red
+- !ruby/object:Match
+  matchId: 4430387967
+  blueTeam:
+  - 121
+  - 268
+  - 523
+  - 555
+  - 85
+  redTeam:
+  - 122
+  - 202
+  - 127
+  - 64
+  - 89
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429585445
+  blueTeam:
+  - 131
+  - 114
+  - 89
+  - 59
+  - 51
+  redTeam:
+  - 235
+  - 267
+  - 69
+  - 64
+  - 10
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424884207
+  blueTeam:
+  - 22
+  - 83
+  - 111
+  - 157
+  - 64
+  redTeam:
+  - 134
+  - 266
+  - 55
+  - 89
+  - 91
+  winner: blue
+- !ruby/object:Match
+  matchId: 4431013915
+  blueTeam:
+  - 266
+  - 497
+  - 498
+  - 30
+  - 203
+  redTeam:
+  - 20
+  - 236
+  - 246
+  - 12
+  - 13
+  winner: red
+- !ruby/object:Match
+  matchId: 4380196890
+  blueTeam:
+  - 37
+  - 119
+  - 516
+  - 99
+  - 64
+  redTeam:
+  - 555
+  - 267
+  - 22
+  - 75
+  - 60
+  winner: red
+- !ruby/object:Match
+  matchId: 4227595654
+  blueTeam:
+  - 246
+  - 10
+  - 432
+  - 121
+  - 85
+  redTeam:
+  - 164
+  - 78
+  - 141
+  - 35
+  - 145
+  winner: red
+- !ruby/object:Match
+  matchId: 4412352958
+  blueTeam:
+  - 111
+  - 429
+  - 420
+  - 2
+  - 142
+  redTeam:
+  - 113
+  - 12
+  - 222
+  - 10
+  - 105
+  winner: blue
+- !ruby/object:Match
+  matchId: 4410354965
+  blueTeam:
+  - 427
+  - 98
+  - 202
+  - 4
+  - 235
+  redTeam:
+  - 17
+  - 60
+  - 246
+  - 145
+  - 350
+  winner: blue
+- !ruby/object:Match
+  matchId: 4432605934
+  blueTeam:
+  - 875
+  - 18
+  - 79
+  - 105
+  - 22
+  redTeam:
+  - 16
+  - 4
+  - 13
+  - 35
+  - 86
+  winner: blue
+- !ruby/object:Match
+  matchId: 4420768316
+  blueTeam:
+  - 163
+  - 89
+  - 131
+  - 69
+  - 11
+  redTeam:
+  - 6
+  - 15
+  - 111
+  - 421
+  - 34
+  winner: blue
+- !ruby/object:Match
+  matchId: 4417958709
+  blueTeam:
+  - 8
+  - 54
+  - 11
+  - 350
+  - 134
+  redTeam:
+  - 64
+  - 38
+  - 58
+  - 67
+  - 89
+  winner: red
+- !ruby/object:Match
+  matchId: 4404869463
+  blueTeam:
+  - 266
+  - 67
+  - 143
+  - 17
+  - 19
+  redTeam:
+  - 412
+  - 110
+  - 104
+  - 98
+  - 90
+  winner: red
+- !ruby/object:Match
+  matchId: 4391722562
+  blueTeam:
+  - 126
+  - 111
+  - 20
+  - 7
+  - 67
+  redTeam:
+  - 24
+  - 86
+  - 74
+  - 18
+  - 43
+  winner: red
+- !ruby/object:Match
+  matchId: 4434582083
+  blueTeam:
+  - 17
+  - 67
+  - 79
+  - 106
+  - 8
+  redTeam:
+  - 53
+  - 59
+  - 81
+  - 516
+  - 38
+  winner: red
+- !ruby/object:Match
+  matchId: 4392946254
+  blueTeam:
+  - 112
+  - 67
+  - 114
+  - 89
+  - 254
+  redTeam:
+  - 24
+  - 75
+  - 45
+  - 267
+  - 18
+  winner: red
+- !ruby/object:Match
+  matchId: 4439884444
+  blueTeam:
+  - 91
+  - 131
+  - 41
+  - 432
+  - 90
+  redTeam:
+  - 235
+  - 64
+  - 523
+  - 39
+  - 13
+  winner: red
+- !ruby/object:Match
+  matchId: 4376234641
+  blueTeam:
+  - 21
+  - 131
+  - 22
+  - 36
+  - 121
+  redTeam:
+  - 82
+  - 51
+  - 54
+  - 2
+  - 40
+  winner: red
+- !ruby/object:Match
+  matchId: 4416965715
+  blueTeam:
+  - 64
+  - 238
+  - 111
+  - 81
+  - 74
+  redTeam:
+  - 35
+  - 150
+  - 246
+  - 497
+  - 498
+  winner: blue
+- !ruby/object:Match
+  matchId: 4438221448
+  blueTeam:
+  - 82
+  - 421
+  - 238
+  - 350
+  - 62
+  redTeam:
+  - 24
+  - 39
+  - 115
+  - 99
+  - 104
+  winner: blue
+- !ruby/object:Match
+  matchId: 4429299306
+  blueTeam:
+  - 64
+  - 432
+  - 69
+  - 13
+  - 516
+  redTeam:
+  - 58
+  - 154
+  - 267
+  - 157
+  - 51
+  winner: red
+- !ruby/object:Match
+  matchId: 4441014154
+  blueTeam:
+  - 119
+  - 99
+  - 203
+  - 80
+  - 161
+  redTeam:
+  - 51
+  - 201
+  - 246
+  - 14
+  - 115
+  winner: red
+- !ruby/object:Match
+  matchId: 4420576619
+  blueTeam:
+  - 86
+  - 61
+  - 516
+  - 110
+  - 412
+  redTeam:
+  - 99
+  - 517
+  - 32
+  - 236
+  - 117
+  winner: blue
+- !ruby/object:Match
+  matchId: 4368476004
+  blueTeam:
+  - 23
+  - 145
+  - 245
+  - 157
+  - 111
+  redTeam:
+  - 254
+  - 161
+  - 51
+  - 517
+  - 41
+  winner: red
+- !ruby/object:Match
+  matchId: 4435795001
+  blueTeam:
+  - 267
+  - 38
+  - 104
+  - 102
+  - 22
+  redTeam:
+  - 74
+  - 32
+  - 81
+  - 236
+  - 16
+  winner: red
+- !ruby/object:Match
+  matchId: 4424727467
+  blueTeam:
+  - 555
+  - 875
+  - 22
+  - 27
+  - 32
+  redTeam:
+  - 240
+  - 91
+  - 81
+  - 61
+  - 25
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423805499
+  blueTeam:
+  - 80
+  - 58
+  - 119
+  - 63
+  - 427
+  redTeam:
+  - 235
+  - 141
+  - 51
+  - 114
+  - 517
+  winner: red
+- !ruby/object:Match
+  matchId: 4434734808
+  blueTeam:
+  - 81
+  - 26
+  - 245
+  - 48
+  - 19
+  redTeam:
+  - 21
+  - 89
+  - 154
+  - 38
+  - 90
+  winner: red
+- !ruby/object:Match
+  matchId: 4366399790
+  blueTeam:
+  - 235
+  - 64
+  - 48
+  - 114
+  - 45
+  redTeam:
+  - 81
+  - 60
+  - 157
+  - 53
+  - 92
+  winner: red
+- !ruby/object:Match
+  matchId: 4430822771
+  blueTeam:
+  - 150
+  - 12
+  - 60
+  - 429
+  - 516
+  redTeam:
+  - 75
+  - 48
+  - 74
+  - 235
+  - 51
+  winner: blue
+- !ruby/object:Match
+  matchId: 4375145573
+  blueTeam:
+  - 34
+  - 154
+  - 523
+  - 126
+  - 16
+  redTeam:
+  - 60
+  - 111
+  - 86
+  - 119
+  - 90
+  winner: red
+- !ruby/object:Match
+  matchId: 4257075306
+  blueTeam:
+  - 117
+  - 145
+  - 24
+  - 157
+  - 102
+  redTeam:
+  - 497
+  - 112
+  - 498
+  - 133
+  - 54
+  winner: red
+- !ruby/object:Match
+  matchId: 4440534072
+  blueTeam:
+  - 154
+  - 122
+  - 61
+  - 89
+  - 236
+  redTeam:
+  - 238
+  - 145
+  - 516
+  - 350
+  - 64
+  winner: blue
+- !ruby/object:Match
+  matchId: 4390807048
+  blueTeam:
+  - 14
+  - 268
+  - 60
+  - 51
+  - 53
+  redTeam:
+  - 267
+  - 203
+  - 202
+  - 516
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4411769966
+  blueTeam:
+  - 41
+  - 236
+  - 69
+  - 111
+  - 245
+  redTeam:
+  - 68
+  - 235
+  - 89
+  - 163
+  - 875
+  winner: red
+- !ruby/object:Match
+  matchId: 4429420180
+  blueTeam:
+  - 44
+  - 67
+  - 51
+  - 157
+  - 113
+  redTeam:
+  - 120
+  - 76
+  - 69
+  - 39
+  - 202
+  winner: red
+- !ruby/object:Match
+  matchId: 4399054850
+  blueTeam:
+  - 8
+  - 516
+  - 523
+  - 412
+  - 245
+  redTeam:
+  - 267
+  - 429
+  - 75
+  - 141
+  - 31
+  winner: red
+- !ruby/object:Match
+  matchId: 4440910714
+  blueTeam:
+  - 421
+  - 161
+  - 516
+  - 498
+  - 497
+  redTeam:
+  - 89
+  - 429
+  - 61
+  - 64
+  - 114
+  winner: blue
+- !ruby/object:Match
+  matchId: 4424317804
+  blueTeam:
+  - 68
+  - 59
+  - 412
+  - 98
+  - 115
+  redTeam:
+  - 51
+  - 45
+  - 143
+  - 245
+  - 150
+  winner: red
+- !ruby/object:Match
+  matchId: 4025363032
+  blueTeam:
+  - 120
+  - 555
+  - 126
+  - 81
+  - 13
+  redTeam:
+  - 39
+  - 145
+  - 412
+  - 50
+  - 62
+  winner: red
+- !ruby/object:Match
+  matchId: 4395772277
+  blueTeam:
+  - 875
+  - 8
+  - 21
+  - 55
+  - 555
+  redTeam:
+  - 91
+  - 60
+  - 420
+  - 202
+  - 37
+  winner: red
+- !ruby/object:Match
+  matchId: 4424054291
+  blueTeam:
+  - 86
+  - 51
+  - 30
+  - 82
+  - 267
+  redTeam:
+  - 236
+  - 101
+  - 157
+  - 60
+  - 516
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439697214
+  blueTeam:
+  - 427
+  - 85
+  - 13
+  - 21
+  - 350
+  redTeam:
+  - 875
+  - 202
+  - 64
+  - 8
+  - 267
+  winner: blue
+- !ruby/object:Match
+  matchId: 4392587329
+  blueTeam:
+  - 51
+  - 555
+  - 69
+  - 80
+  - 254
+  redTeam:
+  - 235
+  - 30
+  - 516
+  - 246
+  - 111
+  winner: blue
+- !ruby/object:Match
+  matchId: 4427254793
+  blueTeam:
+  - 412
+  - 254
+  - 24
+  - 51
+  - 127
+  redTeam:
+  - 67
+  - 7
+  - 39
+  - 25
+  - 113
+  winner: blue
+- !ruby/object:Match
+  matchId: 4415310747
+  blueTeam:
+  - 8
+  - 69
+  - 67
+  - 64
+  - 89
+  redTeam:
+  - 412
+  - 81
+  - 112
+  - 2
+  - 10
+  winner: red
+- !ruby/object:Match
+  matchId: 4435773835
+  blueTeam:
+  - 523
+  - 58
+  - 134
+  - 30
+  - 43
+  redTeam:
+  - 412
+  - 517
+  - 59
+  - 223
+  - 222
+  winner: red
+- !ruby/object:Match
+  matchId: 4424638851
+  blueTeam:
+  - 497
+  - 75
+  - 498
+  - 61
+  - 59
+  redTeam:
+  - 45
+  - 875
+  - 113
+  - 89
+  - 145
+  winner: blue
+- !ruby/object:Match
+  matchId: 4398887159
+  blueTeam:
+  - 101
+  - 875
+  - 121
+  - 523
+  - 111
+  redTeam:
+  - 90
+  - 555
+  - 30
+  - 222
+  - 92
+  winner: red
+- !ruby/object:Match
+  matchId: 4408223578
+  blueTeam:
+  - 111
+  - 202
+  - 24
+  - 3
+  - 154
+  redTeam:
+  - 110
+  - 82
+  - 101
+  - 20
+  - 89
+  winner: blue
+- !ruby/object:Match
+  matchId: 4425575960
+  blueTeam:
+  - 64
+  - 150
+  - 131
+  - 81
+  - 412
+  redTeam:
+  - 154
+  - 18
+  - 9
+  - 266
+  - 157
+  winner: blue
+- !ruby/object:Match
+  matchId: 4441798548
+  blueTeam:
+  - 106
+  - 90
+  - 44
+  - 141
+  - 236
+  redTeam:
+  - 2
+  - 157
+  - 201
+  - 81
+  - 517
+  winner: red
+- !ruby/object:Match
+  matchId: 4380171530
+  blueTeam:
+  - 412
+  - 523
+  - 133
+  - 2
+  - 54
+  redTeam:
+  - 875
+  - 90
+  - 267
+  - 60
+  - 235
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439786904
+  blueTeam:
+  - 91
+  - 53
+  - 30
+  - 51
+  - 10
+  redTeam:
+  - 80
+  - 104
+  - 83
+  - 555
+  - 236
+  winner: red
+- !ruby/object:Match
+  matchId: 4418949934
+  blueTeam:
+  - 555
+  - 235
+  - 31
+  - 59
+  - 245
+  redTeam:
+  - 60
+  - 498
+  - 150
+  - 89
+  - 63
+  winner: blue
+- !ruby/object:Match
+  matchId: 4391726723
+  blueTeam:
+  - 56
+  - 517
+  - 58
+  - 67
+  - 412
+  redTeam:
+  - 63
+  - 2
+  - 114
+  - 222
+  - 117
+  winner: blue
+- !ruby/object:Match
+  matchId: 4363160437
+  blueTeam:
+  - 236
+  - 11
+  - 8
+  - 245
+  - 555
+  redTeam:
+  - 59
+  - 51
+  - 63
+  - 61
+  - 240
+  winner: red
+- !ruby/object:Match
+  matchId: 4412376028
+  blueTeam:
+  - 235
+  - 98
+  - 59
+  - 8
+  - 80
+  redTeam:
+  - 1
+  - 67
+  - 203
+  - 117
+  - 10
+  winner: blue
+- !ruby/object:Match
+  matchId: 4412848511
+  blueTeam:
+  - 99
+  - 875
+  - 81
+  - 223
+  - 96
+  redTeam:
+  - 30
+  - 150
+  - 51
+  - 89
+  - 112
+  winner: red
+- !ruby/object:Match
+  matchId: 4438117706
+  blueTeam:
+  - 119
+  - 113
+  - 101
+  - 36
+  - 40
+  redTeam:
+  - 10
+  - 202
+  - 86
+  - 235
+  - 25
+  winner: blue
+- !ruby/object:Match
+  matchId: 4374198788
+  blueTeam:
+  - 201
+  - 64
+  - 51
+  - 45
+  - 164
+  redTeam:
+  - 89
+  - 2
+  - 82
+  - 523
+  - 8
+  winner: red
+- !ruby/object:Match
+  matchId: 4439262365
+  blueTeam:
+  - 267
+  - 3
+  - 81
+  - 113
+  - 24
+  redTeam:
+  - 122
+  - 4
+  - 21
+  - 164
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4418215663
+  blueTeam:
+  - 59
+  - 75
+  - 61
+  - 67
+  - 53
+  redTeam:
+  - 42
+  - 56
+  - 22
+  - 122
+  - 40
+  winner: red
+- !ruby/object:Match
+  matchId: 4365311642
+  blueTeam:
+  - 157
+  - 18
+  - 432
+  - 72
+  - 11
+  redTeam:
+  - 240
+  - 29
+  - 163
+  - 39
+  - 111
+  winner: blue
+- !ruby/object:Match
+  matchId: 4438190819
+  blueTeam:
+  - 99
+  - 74
+  - 245
+  - 69
+  - 24
+  redTeam:
+  - 53
+  - 61
+  - 236
+  - 28
+  - 114
+  winner: red
+- !ruby/object:Match
+  matchId: 4397535002
+  blueTeam:
+  - 64
+  - 105
+  - 17
+  - 222
+  - 555
+  redTeam:
+  - 150
+  - 38
+  - 117
+  - 131
+  - 67
+  winner: red
+- !ruby/object:Match
+  matchId: 4366843420
+  blueTeam:
+  - 236
+  - 32
+  - 238
+  - 4
+  - 3
+  redTeam:
+  - 21
+  - 7
+  - 84
+  - 412
+  - 64
+  winner: blue
+- !ruby/object:Match
+  matchId: 4438479470
+  blueTeam:
+  - 86
+  - 67
+  - 350
+  - 141
+  - 81
+  redTeam:
+  - 64
+  - 432
+  - 58
+  - 69
+  - 222
+  winner: red
+- !ruby/object:Match
+  matchId: 4384669424
+  blueTeam:
+  - 420
+  - 60
+  - 69
+  - 350
+  - 67
+  redTeam:
+  - 21
+  - 89
+  - 59
+  - 61
+  - 516
+  winner: red
+- !ruby/object:Match
+  matchId: 4424446160
+  blueTeam:
+  - 141
+  - 8
+  - 498
+  - 516
+  - 497
+  redTeam:
+  - 136
+  - 254
+  - 201
+  - 875
+  - 202
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423563508
+  blueTeam:
+  - 235
+  - 33
+  - 82
+  - 40
+  - 142
+  redTeam:
+  - 68
+  - 21
+  - 164
+  - 32
+  - 35
+  winner: red
+- !ruby/object:Match
+  matchId: 4440727958
+  blueTeam:
+  - 121
+  - 222
+  - 23
+  - 154
+  - 267
+  redTeam:
+  - 81
+  - 12
+  - 36
+  - 105
+  - 10
+  winner: blue
+- !ruby/object:Match
+  matchId: 4384429942
+  blueTeam:
+  - 350
+  - 67
+  - 34
+  - 60
+  - 122
+  redTeam:
+  - 112
+  - 89
+  - 58
+  - 35
+  - 21
+  winner: red
+- !ruby/object:Match
+  matchId: 4425641792
+  blueTeam:
+  - 13
+  - 21
+  - 33
+  - 23
+  - 16
+  redTeam:
+  - 117
+  - 54
+  - 29
+  - 72
+  - 99
+  winner: blue
+- !ruby/object:Match
+  matchId: 4442103263
+  blueTeam:
+  - 11
+  - 25
+  - 86
+  - 112
+  - 51
+  redTeam:
+  - 53
+  - 45
+  - 39
+  - 141
+  - 61
+  winner: blue
+- !ruby/object:Match
+  matchId: 4379846006
+  blueTeam:
+  - 115
+  - 516
+  - 15
+  - 203
+  - 111
+  redTeam:
+  - 875
+  - 202
+  - 63
+  - 20
+  - 142
+  winner: red
+- !ruby/object:Match
+  matchId: 4432055194
+  blueTeam:
+  - 432
+  - 82
+  - 112
+  - 157
+  - 10
+  redTeam:
+  - 875
+  - 154
+  - 92
+  - 81
+  - 89
+  winner: red
+- !ruby/object:Match
+  matchId: 4395562597
+  blueTeam:
+  - 131
+  - 41
+  - 59
+  - 16
+  - 15
+  redTeam:
+  - 37
+  - 235
+  - 60
+  - 517
+  - 236
+  winner: red
+- !ruby/object:Match
+  matchId: 4430085511
+  blueTeam:
+  - 13
+  - 145
+  - 421
+  - 111
+  - 875
+  redTeam:
+  - 235
+  - 516
+  - 81
+  - 141
+  - 39
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423166510
+  blueTeam:
+  - 516
+  - 235
+  - 43
+  - 64
+  - 81
+  redTeam:
+  - 122
+  - 142
+  - 32
+  - 555
+  - 429
+  winner: red
+- !ruby/object:Match
+  matchId: 4405596530
+  blueTeam:
+  - 7
+  - 145
+  - 53
+  - 64
+  - 235
+  redTeam:
+  - 16
+  - 39
+  - 110
+  - 238
+  - 120
+  winner: red
+- !ruby/object:Match
+  matchId: 4417951735
+  blueTeam:
+  - 105
+  - 30
+  - 90
+  - 110
+  - 89
+  redTeam:
+  - 134
+  - 39
+  - 16
+  - 36
+  - 516
+  winner: red
+- !ruby/object:Match
+  matchId: 4393266727
+  blueTeam:
+  - 517
+  - 69
+  - 497
+  - 498
+  - 875
+  redTeam:
+  - 111
+  - 114
+  - 64
+  - 157
+  - 45
+  winner: red
+- !ruby/object:Match
+  matchId: 4431087094
+  blueTeam:
+  - 122
+  - 104
+  - 30
+  - 51
+  - 412
+  redTeam:
+  - 101
+  - 117
+  - 75
+  - 21
+  - 60
+  winner: red
+- !ruby/object:Match
+  matchId: 4430070285
+  blueTeam:
+  - 427
+  - 222
+  - 157
+  - 105
+  - 40
+  redTeam:
+  - 3
+  - 122
+  - 235
+  - 57
+  - 28
+  winner: red
+- !ruby/object:Match
+  matchId: 4299618122
+  blueTeam:
+  - 72
+  - 74
+  - 13
+  - 145
+  - 53
+  redTeam:
+  - 3
+  - 67
+  - 117
+  - 80
+  - 28
+  winner: blue
+- !ruby/object:Match
+  matchId: 4439977708
+  blueTeam:
+  - 104
+  - 67
+  - 48
+  - 516
+  - 9
+  redTeam:
+  - 11
+  - 51
+  - 90
+  - 8
+  - 44
+  winner: blue
+- !ruby/object:Match
+  matchId: 4425627323
+  blueTeam:
+  - 134
+  - 429
+  - 41
+  - 53
+  - 120
+  redTeam:
+  - 58
+  - 7
+  - 412
+  - 21
+  - 11
+  winner: red
+- !ruby/object:Match
+  matchId: 4433472565
+  blueTeam:
+  - 111
+  - 516
+  - 517
+  - 39
+  - 38
+  redTeam:
+  - 154
+  - 145
+  - 157
+  - 91
+  - 555
+  winner: blue
+- !ruby/object:Match
+  matchId: 4440848761
+  blueTeam:
+  - 60
+  - 266
+  - 157
+  - 21
+  - 16
+  redTeam:
+  - 246
+  - 110
+  - 10
+  - 104
+  - 89
+  winner: blue
+- !ruby/object:Match
+  matchId: 4351279907
+  blueTeam:
+  - 21
+  - 63
+  - 497
+  - 246
+  - 516
+  redTeam:
+  - 34
+  - 126
+  - 60
+  - 201
+  - 235
+  winner: red
+- !ruby/object:Match
+  matchId: 4435769384
+  blueTeam:
+  - 518
+  - 51
+  - 54
+  - 412
+  - 104
+  redTeam:
+  - 103
+  - 5
+  - 516
+  - 432
+  - 81
+  winner: red
+- !ruby/object:Match
+  matchId: 4414060961
+  blueTeam:
+  - 60
+  - 235
+  - 37
+  - 246
+  - 523
+  redTeam:
+  - 67
+  - 16
+  - 121
+  - 13
+  - 126
+  winner: red
+- !ruby/object:Match
+  matchId: 4370005919
+  blueTeam:
+  - 103
+  - 2
+  - 21
+  - 98
+  - 89
+  redTeam:
+  - 235
+  - 517
+  - 245
+  - 58
+  - 555
+  winner: blue
+- !ruby/object:Match
+  matchId: 4358386045
+  blueTeam:
+  - 24
+  - 235
+  - 18
+  - 134
+  - 121
+  redTeam:
+  - 517
+  - 67
+  - 266
+  - 64
+  - 16
+  winner: blue
+- !ruby/object:Match
+  matchId: 4395420272
+  blueTeam:
+  - 16
+  - 91
+  - 50
+  - 222
+  - 30
+  redTeam:
+  - 875
+  - 427
+  - 89
+  - 18
+  - 131
+  winner: blue
+- !ruby/object:Match
+  matchId: 4398825681
+  blueTeam:
+  - 51
+  - 80
+  - 142
+  - 12
+  - 35
+  redTeam:
+  - 111
+  - 64
+  - 235
+  - 82
+  - 246
+  winner: blue
+- !ruby/object:Match
+  matchId: 4434904866
+  blueTeam:
+  - 92
+  - 53
+  - 222
+  - 154
+  - 38
+  redTeam:
+  - 412
+  - 64
+  - 104
+  - 236
+  - 54
+  winner: red
+- !ruby/object:Match
+  matchId: 4418742988
+  blueTeam:
+  - 24
+  - 117
+  - 4
+  - 67
+  - 39
+  redTeam:
+  - 21
+  - 111
+  - 54
+  - 420
+  - 104
+  winner: blue
+- !ruby/object:Match
+  matchId: 4423512143
+  blueTeam:
+  - 157
+  - 83
+  - 555
+  - 48
+  - 134
+  redTeam:
+  - 41
+  - 1
+  - 350
+  - 498
+  - 35
+  winner: red

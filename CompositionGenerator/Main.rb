@@ -1,8 +1,6 @@
 # Loading gems/libraries
 # yaml for saving objects to a file
 require "yaml" 
-# colorize for coloring text
-require 'colorize'
 # http requests
 require 'httparty'
 # json parsing

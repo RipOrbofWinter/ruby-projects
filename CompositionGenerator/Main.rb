@@ -15,7 +15,8 @@ require_relative 'classes/Match'
 require_relative 'classes/ChampionList'
 
 # TO DO:
-#  Search for champion Matches/games/played
+#  More search features
+# Testing autoloader
 
 
 # Setup enums

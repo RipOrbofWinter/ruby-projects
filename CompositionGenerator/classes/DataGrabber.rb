@@ -1,6 +1,6 @@
 class DataGrabber
 	def initialize
-		@key = "RGAPI-92b08be4-391b-4970-9862-736bddbaf5e6"
+		@key = "RGAPI-3c3a885a-8bc8-478e-9293-f36febc3f401"
         @errorCounter = 0
 	end
 
@@ -83,12 +83,12 @@ class DataGrabber
                 puts "\nError code #{my_hash["status"]["status_code"]}:"
                 puts my_hash["status"]["message"]
                 @errorCounter += 1
-                return my_hash = ""
+                my_hash = ""
             end
         rescue
             return my_hash
         end
-        if errorCounter >= 3
+        if @errorCounter >= 3
             exit
         end
         return my_hash

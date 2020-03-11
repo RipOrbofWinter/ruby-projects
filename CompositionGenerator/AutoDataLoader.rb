@@ -1,8 +1,6 @@
 # Loading gems/libraries
 # yaml for saving objects to a file
 require "yaml" 
-# colorize for coloring text
-require 'colorize'
 # http requests
 require 'httparty'
 # json parsing
@@ -41,6 +39,8 @@ end
 calculator = Calculator.new(champion_options)
 dataLoader = DataGrabber.new
 
+
+# games = dataLoader.getByLeague
 x = 0
 while x <= 40 do
 	Timer.time do |timer|

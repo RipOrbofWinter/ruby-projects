@@ -20,17 +20,60 @@ class Calculator
         return nil
 	end
 
-	def countAll
+	def countTotalGames
 		matchList = YAML.load(File.read("saves/MatchHistory.yml"))
 		puts matchList.history.count
 	end
-
+	
 	def winrate(matches, wins)
 		percentage = (wins.to_f / matches)*100
 		return percentage.to_i
 	end
 
-	def getWins(championId)
+
+
+
+# 	get 1 champion + matchup champions(array)
+	def getMatchup(userChampion, matchupChampions)
+
+		userChampion = to_chI(userChampion)
+		matchupChampions[0] = to_chI(matchupChampions[0])
+		matches = 0
+		wins = 0
+		puts "Searching for matches..."
+		matchList = YAML.load(File.read("saves/MatchHistory.yml"))
+
+
+		matchList.history.each do |i|
+			counter = 0
+			while counter <=5
+				if i.blueTeam[counter] == userChampion
+					5.times do |i2|
+						if i.redTeam[i2+1] == matchupChampions[0]
+							matches +=1
+							if i.winner == "blue"
+								wins +=1
+							end
+						end
+					end
+				elsif i.redTeam[counter] == userChampion
+					5.times do |i2|
+						if i.blueTeam[i2+1] == matchupChampions[0]
+							matches +=1
+							if i.winner == "red"
+								wins +=1
+							end
+						end
+					end
+				end
+				counter +=1
+			end
+		end
+		matches = [matches, winrate(matches, wins)]
+		puts "#{userChampion} has out of #{matches[0]} matches, a winrate of #{matches[1]}%."
+	end
+
+	def getWinsByChampion(championId)
 		matches = 0
 		wins = 0
 		puts "Searching for matches..."

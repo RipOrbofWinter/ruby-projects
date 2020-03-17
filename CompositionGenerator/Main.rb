@@ -16,7 +16,6 @@ require_relative 'classes/ChampionList'
 
 # TO DO:
 #  More search features
-# Testing autoloader
 
 
 # Setup enums
@@ -66,7 +65,7 @@ loop do
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(matchList.to_yaml) }
         puts "File saved"
     elsif input == "test"
-        calculator.countAll
+        calculator.getMatchup("caitlyn".chomp.capitalize.strip, ["kai'sa".chomp.capitalize.strip])
     elsif input == "help"
     	 puts "\nList of Commmands: quit, get, add, addMany, history, test, save, load.\n"
     else

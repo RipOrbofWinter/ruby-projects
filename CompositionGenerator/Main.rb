@@ -47,7 +47,7 @@ loop do
     	break  	
     elsif input == "get"
         print "Select a champion: "
-        calculator.count(gets.chomp.capitalize.strip)
+        calculator.championWinrate(gets.chomp.capitalize.strip)
     elsif input == "add"
         print "Put in the gameId: "
         matchId = gets.chomp.strip
@@ -66,7 +66,7 @@ loop do
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(matchList.to_yaml) }
         puts "File saved"
     elsif input == "test"
-
+        calculator.countAll
     elsif input == "help"
     	 puts "\nList of Commmands: quit, get, add, addMany, history, test, save, load.\n"
     else

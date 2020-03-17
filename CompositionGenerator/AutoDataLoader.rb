@@ -44,7 +44,7 @@ dataLoader = DataGrabber.new
 x = 0
 while x <= 40 do
 	Timer.time do |timer|
-		sleep 15 # every 15 seconds save 4 games
+		sleep 20 # every 15 seconds save 4 games
 			games = dataLoader.getByLeague
 		    games.each{ |game|
 		    	puts matchList.history = game

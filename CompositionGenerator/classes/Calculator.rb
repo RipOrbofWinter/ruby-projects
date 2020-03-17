@@ -20,6 +20,11 @@ class Calculator
         return nil
 	end
 
+	def countAll
+		matchList = YAML.load(File.read("saves/MatchHistory.yml"))
+		puts matchList.history.count
+	end
+
 	def winrate(matches, wins)
 		percentage = (wins.to_f / matches)*100
 		return percentage.to_i
@@ -51,7 +56,7 @@ class Calculator
 		return [matches, winrate(matches, wins)]
 	end
 
-	def count(championName)
+	def championWinrate(championName)
 		championId = to_chI(championName)
 		matches = getWins(championId)
 		if championId != nil

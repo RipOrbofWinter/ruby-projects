@@ -1,6 +1,6 @@
 class DataGrabber
 	def initialize
-		@key = "RGAPI-d7004063-1b8d-4140-a986-2a491f72d376"
+		@key = "RGAPI-6c8d8e14-7823-4da6-bc0f-81ca72a79dce"
         @errorCounter = 0
 	end
 
@@ -16,6 +16,7 @@ class DataGrabber
         my_hash = testForError(my_hash)
 		if my_hash != ""
             p my_hash["gameId"]
+            date = Time.at(0, my_hash["gameCreation"].to_i, :millisecond).strftime("%d/%m/%Y %k:%M")
             blueTeam = Array.new()
             redTeam = Array.new()
             winner = ""
@@ -36,7 +37,7 @@ class DataGrabber
                 puts "No winner found; Rito games strikes again"
                 return
             end
-            game = Match.new(my_hash["gameId"], blueTeam, redTeam, winner) 
+            game = Match.new(my_hash["gameId"], date, blueTeam, redTeam, winner) 
             return game
         else
             puts "\nAdding match aborted"
@@ -50,30 +51,40 @@ class DataGrabber
         @errorCounter = 0
         tiers = ["I", "II", "III", "IV"]
         games = Array.new()
-        tiers.each{ |tier|
             # get random user from specified elo
-            url = "https://euw1.api.riotgames.com/lol/league/v4/entries/RANKED_FLEX_SR/PLATINUM/#{tier}?page=#{rand(1..10)}"
+            url = "https://euw1.api.riotgames.com/lol/league/v4/entries/RANKED_FLEX_SR/PLATINUM/#{tiers[rand(0..3)]}?page=#{rand(1..10)}"
             headers = { 'X-Riot-Token': "#{@key}" }
             response = HTTParty.get(url, headers: headers)
             my_hash = JSON.parse(response.body)
             my_hash = testForError(my_hash)
-            redo if my_hash == "" && @errorCounter < 3
+            if my_hash == "" && @errorCounter < 3
+                exit
+            end
             my_hash = my_hash[rand(1..150)]["summonerId"]
             # get accountID for match history
             url = "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/#{my_hash}"
             response = HTTParty.get(url, headers: headers)
             my_hash = JSON.parse(response.body)
             my_hash = testForError(my_hash)
-            redo if my_hash == "" && @errorCounter < 3
+            if my_hash == "" && @errorCounter < 3
+                exit
+            end
             my_hash = my_hash["accountId"]
             # get a match with the acount id
             url = "https://euw1.api.riotgames.com/lol/match/v4/matchlists/by-account/#{my_hash}?queue=440"
             response = HTTParty.get(url, headers: headers)
             my_hash = JSON.parse(response.body)
             my_hash = testForError(my_hash)
-            redo if my_hash == "" && @errorCounter < 3
-            games.push(self.getMatch(my_hash["matches"][rand(1..20)]["gameId"]))
-        }
+            if my_hash == "" && @errorCounter < 3
+                exit
+            end
+            # loop through match history
+            loopCounter = 1
+            while loopCounter <= 7 do
+                games.push(self.getMatch(my_hash["matches"][loopCounter]["gameId"]))
+                loopCounter += 1
+            end
+
         return games
     end
 

@@ -5,6 +5,8 @@ require "yaml"
 require 'httparty'
 # json parsing
 require 'json'
+# for converting timestamp to date
+require 'date'
 
 # Loading Classes
 require_relative 'classes/DataGrabber'
@@ -15,7 +17,9 @@ require_relative 'classes/Match'
 require_relative 'classes/ChampionList'
 
 # TO DO:
-#  More search features
+# More search features
+#   - Search against group? ex. tanks, mages, assasins; 
+# Optimize game loading
 
 
 # Setup enums
@@ -65,8 +69,10 @@ loop do
         File.open("saves/MatchHistory.yml", "w") { |file| file.write(matchList.to_yaml) }
         puts "File saved"
     elsif input == "test"
-        calculator.getMatchup("caitlyn".chomp.capitalize.strip, ["kai'sa".chomp.capitalize.strip])
-    elsif input == "help"
+        calculator.countTotalGames
+        calculator.getMatchup("vayne".chomp.capitalize.strip, ["ornn".chomp.capitalize.strip])
+        calculator.getMatchup("vayne".chomp.capitalize.strip, ["yasuo".chomp.capitalize.strip])
+     elsif input == "help"
     	 puts "\nList of Commmands: quit, get, add, addMany, history, test, save, load.\n"
     else
     	puts "Not an acceptable command, try 'help' for the list of commands."

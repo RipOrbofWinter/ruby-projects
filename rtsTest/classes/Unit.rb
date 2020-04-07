@@ -20,9 +20,10 @@ class Unit
 		puts self.name
 		puts "Defensive values: "		
 		puts "Health: #{self.health} Shield: #{self.shield}"		
-		puts 
-
-		puts self.attackDamage	
+		puts "Armor: #{self.health} Shield armor: #{self.shield}"		
+		
+		puts "Offensive values:"
+		puts "Attack damage: #{self.attackDamage}"
 		puts self.health	
 		puts self.health	
 		puts self.health	

@@ -30,7 +30,7 @@ class Calculator
 		return percentage.to_i
 	end
 
-# 	get 1 champion + matchup champions(array)
+# 	get 1 champion + matchup champions(array)	
 	def getMatchup(userChampion, matchupChampions)
 
 		userChampion = to_chI(userChampion)
@@ -101,6 +101,7 @@ class Calculator
 		matches = getWinsByChampion(championId)
 		if championId != nil
 			puts "#{championName} has out of #{matches[0]} matches, a winrate of #{matches[1]}%."
+			return matches
 		else
 			puts "Unknown championName" 
 		end

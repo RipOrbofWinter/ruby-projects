@@ -1,32 +1,44 @@
+#Load uuid library
+require 'securerandom'
+
 class Unit
 	attr_accessor :attackDamage, :attackSpeed, :health, :shield, :healthArmor, :shieldArmor
-	attr_reader :name, :attrubutes, :cost,
-	def attack(target)
-		puts "#{self.name} attacked unit #{target.name} for a total of #{self.calculateDamage} damage."
+	attr_reader :name, :uuid, :attributes, :cost, :multipleAttacks
+
+	def error01()
+		raise "Error 01: dead unit #{@name} #{@uuid} has shield points"
 	end
-	def calculateDamage(target)
-		if target.shield <= 0 do
-			target.health - (self.attackDamage - defense)
-		elsif target.shield > 
-			
-		
+
+	def attack(receiver)
+		puts "#{@name} attacked #{receiver.name}"
+        receiver.receiveDamage(@attackDamage)
+        if @multipleAttacks == true
+        	receiver.receiveDamage(@attackDamage)
+        end
 	end
-	def showSimpleStats
-		puts self.name		
-		puts "Shield: #{self.shield}"		
-		puts "Health: #{self.health}"	
-	end
-	def showAdvancedStats
-		puts self.name
-		puts "Defensive values: "		
-		puts "Health: #{self.health} Shield: #{self.shield}"		
-		puts "Armor: #{self.health} Shield armor: #{self.shield}"		
-		
-		puts "Offensive values:"
-		puts "Attack damage: #{self.attackDamage}"
-		puts self.health	
-		puts self.health	
-		puts self.health	
-	end
+
+    def receiveDamage(damage_received)
+        if @shield > 0 && @health > 0
+            @shield -= damage_received
+            if @shield < 0
+                @shield = 0
+            	return false
+        	end
+        elsif @shield <= 0 && @health > 0
+        	# Deal damage and check if unit died.
+	        @health -= damage_received
+	        if @health <= 0
+	        	puts
+	            puts "#{@name} #{@uuid} has been defeated"
+	            return true
+	        elsif @health > 0
+	            puts "#{@name} #{@uuid} has #{@health} health remaining"
+	            return false
+	        end
+	    elsif @shield > 0 && @health <= 0
+	    	error01()
+	    elsif @health <= 0 && @shield <= 0
+	    	return true
+	    end
+    end
 end
-	

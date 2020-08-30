@@ -1,15 +1,18 @@
-require_relative "Block.rb"
+require_relative 'Unit'
 
-class CobblestoneBlock < Block
+class Zergling < Unit
 	def initialize()
-		@name = "Cobblestone"
-		@harvest = @name
-		@fortune = 1
+		@name = "Zergling"
+		@uuid = SecureRandom.uuid
+		@attributes = ["Biological", "Light"]
+        @cost = [50, 0]
+        @health = 35
+        @shield = 0
+        @attackDamage = 5
+        @multipleAttacks = false
+        @healthArmor = 0
+        @shieldArmor = 0
 	end
 
-	def repair
-		puts "You repaired the CobblestoneBlock into a StoneBlock!"
-		return StoneBlock.new
-	end
 end
 	

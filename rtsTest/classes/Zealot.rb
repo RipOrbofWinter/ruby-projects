@@ -1,14 +1,16 @@
-require_relative "Block.rb"
+require_relative 'Unit'
 
-class StoneBlock < Block
+class Zealot < Unit
 	def initialize()
-		@name = "Stone"
-		@harvest = "Cobblestone"
-		@fortune = 1
-	end
-	def scout
-		tmp = self.name[0..2] + " "
-		return tmp.colorize(:light_black)
+		@name = "Zealot"
+		@uuid = SecureRandom.uuid
+		@attributes = ["Biological", "Light"]
+        @cost = [100, 0]
+        @health = 100
+        @shield = 50
+        @attackDamage = 8
+        @multipleAttacks = true
+        @healthArmor = 1
+        @shieldArmor = 0
 	end
 end
-	

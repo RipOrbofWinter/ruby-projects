@@ -1,6 +1,6 @@
 class DataGrabber
 	def initialize
-		@key = "RGAPI-6c8d8e14-7823-4da6-bc0f-81ca72a79dce"
+		@key = "RGAPI-713f543b-cbf6-467e-9a1c-e2e6a77b8cd5"
         @errorCounter = 0
 	end
 
